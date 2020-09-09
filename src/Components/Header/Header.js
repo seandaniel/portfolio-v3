@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// scss
+import './header.scss';
+
+// assets
 import mountains from './assets/mountains.svg';
+import { FaMapMarkerAlt } from 'react-icons/fa'
+
 
 const Header = () => {
   return (
@@ -11,23 +18,27 @@ const Header = () => {
       <div className="heading-container">
         <h1>Sean de Groot</h1>
         <h2>Web Developer</h2>
+        <div className="location-container">
+          <FaMapMarkerAlt />
+          <h3>Kitchener-Waterloo</h3>
+        </div>
       </div>
       <nav>
         <ul>
           <li>
-            <Link >About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <Link >Skills</Link>
+            <Link to="/skills">Skills</Link>
           </li>
           <li>
-            <Link >Projects</Link>
+            <Link to="/">Projects</Link>
           </li>
           <li>
-            <Link >Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <Link >Let's Chat</Link>
+            <Link to="/letschat">Let's Chat</Link>
           </li>
         </ul>
       </nav>
