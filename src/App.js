@@ -6,6 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Components/Header/Header.js';
 import About from './Components/About/About.js';
 import Projects from './Components/Projects/Projects.js';
+import GitCheck from './Components/Projects/GitCheck.js';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <main>
             <Route exact path="/about" component={About} />
             <Route exact path="/" component={Projects} />
+            <Route exact path="/git-check" component={GitCheck} />
           </main>
         </div>
       </BrowserRouter>

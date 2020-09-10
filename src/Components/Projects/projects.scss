@@ -12,9 +12,11 @@
     border-radius: 5px;
     text-align: center;
     margin: 0 25px 25px 0;
-    transition: transform .35s;
+    opacity: 1;
+    // transform?
+    transition: opacity .35s;
     &:hover {
-      transform: scale(1.05);
+      opacity: .7;
     }
     img {
       height: 90px;

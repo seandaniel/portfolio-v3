@@ -10,6 +10,18 @@ import { FaMapMarkerAlt } from 'react-icons/fa'
 
 
 const Header = () => {
+
+  const toggleColor = (e) => {
+
+    const links = document.querySelectorAll('nav ul li a');
+
+    links.forEach(link => {
+      link.classList.remove('active');
+    })
+
+    e.target.classList.add('active');
+  }
+
   return (
     <header>
       <div className="img-container">
@@ -26,19 +38,16 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/about">About</Link>
+            <Link onClick={toggleColor} to="/about">About</Link>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <Link onClick={toggleColor} to="/skills">Skills</Link>
           </li>
           <li>
-            <Link to="/">Projects</Link>
+            <Link onClick={toggleColor} to="/" className="active">Projects</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/letschat">Let's Chat</Link>
+            <Link onClick={toggleColor} to="/blog">Blog</Link>
           </li>
         </ul>
       </nav>
