@@ -55,3 +55,17 @@ button {
   width: 95%;
   margin: 0 auto;
 }
+
+.button {
+  display: inline-block;
+  background-color: $primaryColor;
+  border: 2px solid $primaryColor;
+  border-radius: 4px;
+  padding: 10px 20px;
+  transition: color .35s, background-color .35s;
+  &:hover,
+  &:focus {
+    color: $secondaryColor;
+    background-color: inherit;
+  }
+}
