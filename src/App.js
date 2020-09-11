@@ -6,6 +6,7 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Header from './Components/Header/Header.js';
 import About from './Components/About/About.js';
 import Projects from './Components/Projects/Projects.js';
+import Blog from './Components/Blog/Blog.js';
 import GitCheck from './Components/Projects/GitCheck.js';
 
 const App = () => {
@@ -18,6 +19,7 @@ const App = () => {
             <Route exact path="/about" component={About} />
             <Route exact path="/" component={Projects} />
             <Route exact path="/git-check" component={GitCheck} />
+            <Route exact path="/blog" component={Blog} />
           </main>
         </div>
       </BrowserRouter>

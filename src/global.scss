@@ -58,6 +58,7 @@ button {
 
 .button {
   display: inline-block;
+  color: $tertiaryColor;
   background-color: $primaryColor;
   border: 2px solid $primaryColor;
   border-radius: 4px;

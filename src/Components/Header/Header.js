@@ -34,6 +34,7 @@ const Header = () => {
           <FaMapMarkerAlt />
           <h3>Kitchener-Waterloo</h3>
         </div>
+        <a href="mailto:degroot.sd@gmail.com" className="button">Message</a>
       </div>
       <nav>
         <ul>
