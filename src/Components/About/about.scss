@@ -1,0 +1,19 @@
+.p-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .p-container {
+    width: 600px;
+    line-height: 1.4;
+    p:first-child {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.p-img-container img {
+  object-fit: cover;
+  border-radius: 5px;
+  height: 400px;
+  width: 300px;
+}

@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   .project {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,10 +14,11 @@
     text-align: center;
     margin: 0 25px 25px 0;
     opacity: 1;
-    // transform?
-    transition: opacity .35s;
+    top: 0;
+    transition: opacity .35s, top .35s;
     &:hover {
       opacity: .7;
+      top: -20px;
     }
     img {
       height: 90px;

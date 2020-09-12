@@ -8,6 +8,7 @@ import About from './Components/About/About.js';
 import Projects from './Components/Projects/Projects.js';
 import Blog from './Components/Blog/Blog.js';
 import GitCheck from './Components/Projects/GitCheck.js';
+import Footer from './Components/Footer/Footer.js';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <Route exact path="/blog" component={Blog} />
           </main>
         </div>
+        <Footer />
       </BrowserRouter>
     </>
   )

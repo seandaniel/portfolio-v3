@@ -1,0 +1,30 @@
+@import '../../variables.scss';
+
+footer {
+  background: $primaryColor;
+  padding-top: 10px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .icons-ul {
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: $secondaryColor;
+    width: 200px;
+    li a {
+      transition: color .35s;
+      &:hover {
+        color: $tertiaryColor;
+      }
+    }
+  }
+}
+
+.footer-container img {
+  height: 180px;
+  width: 180px;
+}
