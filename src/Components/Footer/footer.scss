@@ -13,12 +13,12 @@ footer {
     font-size: 25px;
     display: flex;
     justify-content: space-between;
-    color: $secondaryColor;
+    color: $tertiaryColor;
     width: 200px;
     li a {
       transition: color .35s;
       &:hover {
-        color: $tertiaryColor;
+        color: $secondaryColor;
       }
     }
   }
