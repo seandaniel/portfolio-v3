@@ -15,8 +15,9 @@ import GitImg from './assets/git-plain.svg';
 import NodeImg from './assets/nodejs-plain.svg';
 import NpmImage from './assets/npm-original-wordmark.svg';
 import GulpImg from './assets/gulp-plain.svg';
-import PhotoShopImg from './assets/photoshop-plain.svg';
 import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
+import shred from './assets/shredOptimized.mp4';
+import shredPreview from './assets/shredPreview.jpg';
 
 const Skills = () => {
   return (
@@ -24,59 +25,92 @@ const Skills = () => {
       <ul className="main-skills-container">
         <li className="skills-1-card">
           <img src={JavaScriptImg} alt="" />
+          <p><h3>JavaScript</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={ReactImg} alt="" />
+          <p><h3>React</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={SassImg} alt="" />
+          <p><h3>Sass</h3> sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={WordPressImg} alt="" />
+          <p><h3>WordPress</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={ShopifyImg} alt="" />
+          <p><h3>Shopify</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
       </ul>
       <ul className="secondary-skills-container">
-        <li className="skills-2-card">
-          <img src={HTMLImg} alt="" />
+        <li className="row-1">
+          <ul>
+            <li className="skills-2-card">
+              <img src={HTMLImg} alt="" />
+              <h3>HTML</h3>
+            </li>
+            <li className="skills-2-card">
+              <img src={CSSImg} alt="" />
+              <h3>CSS</h3>
+            </li>
+            <li className="skills-2-card">
+              <img src={jQueryImg} alt="" />
+              <h3>jQuery</h3>
+            </li>
+            <li className="skills-2-card">
+              <img src={FirebaseImg} alt="" />
+              <h3>Firebase</h3>
+            </li>
+          </ul>
         </li>
-        <li className="skills-2-card">
-          <img src={CSSImg} alt="" />
+        <li className="row-2">
+          <ul>
+            <li className="skills-2-card">
+              <img src={GitImg} alt="" />
+              <h3>Git</h3>
+            </li>
+            <li className="skills-2-card">
+              <img src={NodeImg} alt="" />
+              <h3>Node.js</h3>
+            </li>
+            <li className="skills-2-card">
+              <img src={NpmImage} alt="" />
+              <h3>npm</h3>
+            </li>
+            <li className="skills-2-card last-skill">
+              <img src={GulpImg} alt="" />
+              <h3>Gulp</h3>
+            </li>
+          </ul>
         </li>
-        <li className="skills-2-card">
-          <img src={jQueryImg} alt="" />
+        <li className="row-3">
+          <ul>
+            <li className="skills-2-card">
+              <FaDatabase />
+              <h3>APIs</h3>
+            </li>
+            <li className="skills-2-card">
+              <FaUniversalAccess />
+              <h3>Accessibility</h3>
+            </li>
+            <li className="skills-2-card">
+              <FaMobile />
+              <h3>Responsive</h3>
+            </li>
+            <li className="skills-2-card last-skill">
+              <FaSearchPlus />
+              <h3>SEO</h3>
+            </li>
+          </ul>
         </li>
-        <li className="skills-2-card">
-          <img src={FirebaseImg} alt="" />
-        </li>
-        <li className="skills-2-card">
-          <img src={GitImg} alt="" />
-        </li>
-        <li className="skills-2-card">
-          <img src={NodeImg} alt="" />
-        </li>
-        <li className="skills-2-card">
-          <img src={NpmImage} alt="" />
-        </li>
-        <li className="skills-2-card">
-          <img src={GulpImg} alt="" />
-        </li>
-        <li className="skills-2-card">
-          <FaDatabase />
-        </li>
-        <li className="skills-2-card">
-          <img src={PhotoShopImg} alt="" />
-        </li>
-        <li className="skills-2-card">
-          <FaUniversalAccess />
-        </li>
-        <li className="skills-2-card">
-          <FaMobile />
-        </li>
-        <li className="skills-2-card">
-          <FaSearchPlus />
+        <li class="video-container">
+          <video poster={shredPreview} src={shred}
+            alt="A snowboarder doing a 360 off a natural jump" autoplay controls loop muted></video>
+          <div className="video-content">
+            <p>Snowboarding skills included</p>
+          </div>
         </li>
       </ul>
     </section>

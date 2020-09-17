@@ -1,6 +1,110 @@
 @import '../../variables.scss';
 
-img {
-  height: 50px;
-  width: 50px;
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-1-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; 
+  width: 450px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  img {
+    height: 80px;
+    width: 80px;
+    margin-right: 50px;
+  }
+  p h3 {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+}
+
+.secondary-skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-2-card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  padding: 17px;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0 20px 20px 0;
+  img {
+    height: 30px;
+    width: 30px;
+  }
+  svg {
+    font-size: 35px;
+  }
+  h3 {
+    margin-top: 10px;
+  }
+}
+
+.row-1 ul {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.last-skill {
+  margin-right: 0;
+}
+
+// why doesn't this work?
+// .row-2 ul li:last-child
+// .row-3 ul li:last-child {
+//   margin-right: 0;
+// }
+
+.row-1 ul li:last-child {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 99.0667px;
+  padding: 0 10px 10px;
+  margin-right: 0;
+  img {
+    height: 60px;
+    width: 60px;
+  }
+  h3 {
+    margin-top: 0;
+  }
+}
+
+.row-3 {
+  // -20px from .row-3 .skills-2-card's
+  margin-bottom: 80px;
+}
+
+.video-container {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+video {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px 5px 0 0;
+}
+
+.video-content {
+  padding: 20px;
+  text-align: center;
 }
