@@ -2,7 +2,6 @@
 
 footer {
   background: $primaryColor;
-  padding-top: 10px;
 }
 
 .footer-container {
@@ -13,12 +12,21 @@ footer {
     font-size: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     color: $tertiaryColor;
     width: 200px;
-    li a {
-      transition: color .35s;
-      &:hover {
-        color: $secondaryColor;
+    li {
+      height: 25px;
+      width: 25px;
+      a {
+        height: 25px;
+        width: 25px;
+        display: inline-block;
+        transition: color .35s;
+        &:hover,
+        &:focus {
+          color: $secondaryColor;
+        }
       }
     }
   }

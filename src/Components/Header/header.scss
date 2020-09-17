@@ -24,6 +24,9 @@
     font-size: 30px;
     margin-bottom: 20px;
   }
+  h3 {
+    font-weight: 400;
+  }
 }
 
 h1::after {
@@ -32,7 +35,7 @@ h1::after {
   left: 0;
   bottom: 6px;
   width: 100%;
-  background: rgba(84, 111, 129, 0.2);
+  background: $quaternaryColor;
   height: 10px;
   border-radius: 5px;
 }

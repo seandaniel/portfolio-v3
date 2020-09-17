@@ -28,13 +28,16 @@
   }
 }
 
-a:hover .date-icon-container svg {
+a:hover .date-icon-container svg,
+a:focus .date-icon-container svg {
   color: $secondaryColor;
 }
 
 article {
   padding: 20px;
   h3 {
+    display: flex;
+    align-items: center;
     height: 43.0667px;
     margin-bottom: 20px;
   }
@@ -58,7 +61,7 @@ article {
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(84, 111, 129, 0.2);
+  background: $quaternaryColor;
   height: 5px;
   border-radius: 5px; 
 }

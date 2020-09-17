@@ -10,7 +10,7 @@ import { FaMedium } from 'react-icons/fa';
 
 const Blog = () => {
   return (
-    <div className="blog-container">
+    <section className="blog-container">
       <a href="https://medium.com/dev-genius/modern-loops-in-javascript-9980ee4ae9e3" target="_blank" rel="noopener noreferrer">
         <img src={article3Image} alt="A ferris wheeling spinning imitating a loop" />
         <article className="article-content">
@@ -41,7 +41,7 @@ const Blog = () => {
           </div>
         </article>
       </a>
-    </div>
+    </section>
   )
 }
 
