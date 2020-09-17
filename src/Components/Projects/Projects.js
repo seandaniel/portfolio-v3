@@ -15,31 +15,31 @@ const Projects = () => {
   return (
     <section>
       <ul className="projects-container">
-        <li><a className="project project1">
+        <li><a href="www.seandegroot.com" className="project project1">
           <img src={pieChart} alt="" />
           <h3>Git Check</h3>
         </a></li>
-        <li><a className="project project2">
+        <li><a href="www.seandegroot.com" className="project project2">
           <img src={article} alt="" />
           <h3>The Specific Press</h3>
         </a></li>
-        <li><a className="project project3">
+        <li><a href="www.seandegroot.com" className="project project3">
           <img src={flower} alt="" />
           <h3>Verbeek's</h3>
         </a></li>
-        <li><a className="project project4">
+        <li><a href="www.seandegroot.com" className="project project4">
           <img src={questionMark} alt="" />
           <h3>Quarantine Pursuit</h3>
         </a></li>
-        <li><a className="project project5">
+        <li><a href="www.seandegroot.com" className="project project5">
           <img src={shoe} alt="" />
           <h3>Foot Forward</h3>
         </a></li>
-        <li><a className="project project6">
+        <li><a href="www.seandegroot.com" className="project project6">
           <img src={golfBall} alt="" />
           <h3>Seamus Golf</h3>
         </a></li>
-        <li><a className="project project7">
+        <li><a href="www.seandegroot.com" className="project project7">
           <img src={skateboard} alt="" />
           <h3>Fun Place</h3>
         </a></li>
