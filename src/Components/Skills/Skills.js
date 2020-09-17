@@ -109,7 +109,7 @@ const Skills = () => {
           <video poster={shredPreview} src={shred}
             alt="A snowboarder doing a 360 off a natural jump" autoplay controls loop muted></video>
           <div className="video-content">
-            <p>Snowboarding skills included</p>
+            <p>Snowboard skills included</p>
           </div>
         </li>
       </ul>
