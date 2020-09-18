@@ -20,9 +20,9 @@ const Footer = () => {
           <div className="copyright-img-container">
             <div className="copyright-container">
               <p> &lt;img
-            src="<a href="https://unsplash.com/@kyawthutun" target="_blank" rel="noreffer" title="Kyaw Tun">KT</a>,
-            <a href="https://unsplash.com/@jontyson" target="_blank" rel="noopener noreffer" title="Jon Tyson"> JT</a>,
-            <a href="https://unsplash.com/@carlheyerdahl" target="_blank" rel="noreffer" title="Carl Heyerdahl"> CH</a>"/>
+            src="<a href="https://unsplash.com/@kyawthutun" target="_blank" rel="noopener noreferrer" title="Kyaw Tun">KT</a>,
+            <a href="https://unsplash.com/@jontyson" target="_blank" rel="noopener noreferrer" title="Jon Tyson"> JT</a>,
+            <a href="https://unsplash.com/@carlheyerdahl" target="_blank" rel="noopener noreferrer" title="Carl Heyerdahl"> CH</a>"/>
             </p>
               <p>© 2020 Sean de Groot</p>
             </div>
