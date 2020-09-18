@@ -1,13 +1,28 @@
+@import '../../variables';
+
 .p-img-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   .p-container {
     width: 600px;
+    margin-left: 30px;
     p:first-child {
       margin-bottom: 50px;
+      position: relative;
     }
   }
+}
+
+.p-container p:first-child::after {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  background-color: $quinaryColor;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
 }
 
 .p-img-container img {

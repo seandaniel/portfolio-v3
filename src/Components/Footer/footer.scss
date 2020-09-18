@@ -36,3 +36,24 @@ footer {
   height: 180px;
   width: 180px;
 }
+
+.copyright-img-container {
+  display: flex;
+  align-items: center;
+  color: $tertiaryColor;
+  .copyright-container {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    margin-right: 10px;
+    a {
+      color: $secondaryColor;
+      text-decoration: underline;
+      transition: color .35s;
+      &:hover,
+      &:focus {
+        color: $tertiaryColor;
+      }
+    }
+  }
+}

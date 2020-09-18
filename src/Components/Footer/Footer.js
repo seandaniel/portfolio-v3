@@ -17,7 +17,17 @@ const Footer = () => {
             <li><a href="https://twitter.com/seandanieldev" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><FaTwitter /></a></li>
             <li><a href="https://medium.com/@seandanieldev" target="_blank" rel="noopener noreferrer" aria-label="Medium"><FaMedium /></a></li>
           </ul>
-          <img src={mountainsFooter} alt="Three mountains with snow-peaked tops" />
+          <div className="copyright-img-container">
+            <div className="copyright-container">
+              <p> &lt;img
+            src="<a href="https://unsplash.com/@kyawthutun" target="_blank" rel="noreffer" title="Kyaw Tun">KT</a>,
+            <a href="https://unsplash.com/@jontyson" target="_blank" rel="noopener noreffer" title="Jon Tyson"> JT</a>,
+            <a href="https://unsplash.com/@carlheyerdahl" target="_blank" rel="noreffer" title="Carl Heyerdahl"> CH</a>"/>
+            </p>
+              <p>© 2020 Sean de Groot</p>
+            </div>
+            <img src={mountainsFooter} alt="Three mountains with snow-peaked tops" />
+          </div>
         </div>
       </div>
     </footer>

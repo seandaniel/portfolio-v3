@@ -21,27 +21,27 @@ import shredPreview from './assets/shredPreview.jpg';
 
 const Skills = () => {
   return (
-    <section class="skills-container">
+    <section className="skills-container">
       <ul className="main-skills-container">
         <li className="skills-1-card">
           <img src={JavaScriptImg} alt="" />
-          <p><h3>JavaScript</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
+          <p><span>JavaScript</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={ReactImg} alt="" />
-          <p><h3>React</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
+          <p><span>React</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={SassImg} alt="" />
-          <p><h3>Sass</h3> sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
+          <p><span>Sass</span> sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={WordPressImg} alt="" />
-          <p><h3>WordPress</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
+          <p><span>WordPress</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
           <img src={ShopifyImg} alt="" />
-          <p><h3>Shopify</h3> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
+          <p><span>Shopify</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
       </ul>
       <ul className="secondary-skills-container">
@@ -49,19 +49,19 @@ const Skills = () => {
           <ul>
             <li className="skills-2-card">
               <img src={HTMLImg} alt="" />
-              <h3>HTML</h3>
+              <p>HTML</p>
             </li>
             <li className="skills-2-card">
               <img src={CSSImg} alt="" />
-              <h3>CSS</h3>
+              <p>CSS</p>
             </li>
             <li className="skills-2-card">
               <img src={jQueryImg} alt="" />
-              <h3>jQuery</h3>
+              <p>jQuery</p>
             </li>
             <li className="skills-2-card">
               <img src={FirebaseImg} alt="" />
-              <h3>Firebase</h3>
+              <p>Firebase</p>
             </li>
           </ul>
         </li>
@@ -69,19 +69,19 @@ const Skills = () => {
           <ul>
             <li className="skills-2-card">
               <img src={GitImg} alt="" />
-              <h3>Git</h3>
+              <p>Git</p>
             </li>
             <li className="skills-2-card">
               <img src={NodeImg} alt="" />
-              <h3>Node.js</h3>
+              <p>Node.js</p>
             </li>
             <li className="skills-2-card">
               <img src={NpmImage} alt="" />
-              <h3>npm</h3>
+              <p>npm</p>
             </li>
             <li className="skills-2-card last-skill">
               <img src={GulpImg} alt="" />
-              <h3>Gulp</h3>
+              <p>Gulp</p>
             </li>
           </ul>
         </li>
@@ -89,25 +89,25 @@ const Skills = () => {
           <ul>
             <li className="skills-2-card">
               <FaDatabase />
-              <h3>APIs</h3>
+              <p>APIs</p>
             </li>
             <li className="skills-2-card">
               <FaUniversalAccess />
-              <h3>Accessibility</h3>
+              <p>Accessibility</p>
             </li>
             <li className="skills-2-card">
               <FaMobile />
-              <h3>Responsive</h3>
+              <p>Responsive</p>
             </li>
             <li className="skills-2-card last-skill">
               <FaSearchPlus />
-              <h3>SEO</h3>
+              <p>SEO</p>
             </li>
           </ul>
         </li>
-        <li class="video-container">
+        <li className="video-container">
           <video poster={shredPreview} src={shred}
-            alt="A snowboarder doing a 360 off a natural jump" autoplay controls loop muted></video>
+            alt="A snowboarder doing a 360 off a natural jump" autoPlay controls loop muted></video>
           <div className="video-content">
             <p>Snowboard skills included</p>
           </div>
