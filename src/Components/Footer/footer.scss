@@ -33,19 +33,20 @@ footer {
 }
 
 .footer-container img {
-  height: 180px;
-  width: 180px;
+  height: 130px;
+  width: 130px;
 }
 
 .copyright-img-container {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   color: $tertiaryColor;
   .copyright-container {
     display: flex;
     flex-direction: column;
     font-style: italic;
     margin-right: 10px;
+    margin-bottom: 37px;
     a {
       color: $secondaryColor;
       text-decoration: underline;

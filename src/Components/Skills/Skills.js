@@ -106,11 +106,16 @@ const Skills = () => {
           </ul>
         </li>
         <li className="video-container">
+          <div className="toolbar">
+            <ul className="button-container">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <p>snowboard-skills.mp4</p>
+          </div>
           <video poster={shredPreview} src={shred}
             alt="A snowboarder doing a 360 off a natural jump" autoPlay controls loop muted></video>
-          <div className="video-content">
-            <p>Snowboard skills included</p>
-          </div>
         </li>
       </ul>
     </section>

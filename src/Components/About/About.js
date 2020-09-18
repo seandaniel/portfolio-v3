@@ -19,7 +19,7 @@ const About = () => {
             <li></li>
             <li></li>
           </ul>
-          <p>web-developer.png</p>
+          <p>web-developer.jpg</p>
         </div>
         <img src={profilePicture} alt="A headshot of Sean de Groot" />
       </div>
