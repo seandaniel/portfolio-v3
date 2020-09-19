@@ -1,4 +1,5 @@
-import React, { Link } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './projects.scss'
 
@@ -15,10 +16,10 @@ const Projects = () => {
   return (
     <section>
       <ul className="projects-container">
-        <li><a href="www.seandegroot.com" className="project project1">
+        <li><Link to={"/git-check"} className="project project1">
           <img src={pieChart} alt="" />
           <h3>Git Check</h3>
-        </a></li>
+        </Link></li>
         <li><a href="www.seandegroot.com" className="project project2">
           <img src={article} alt="" />
           <h3>The Specific Press</h3>

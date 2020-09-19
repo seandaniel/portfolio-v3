@@ -7,8 +7,8 @@ import Header from './Components/Header/Header.js';
 import About from './Components/About/About.js';
 import Skills from './Components/Skills/Skills.js';
 import Projects from './Components/Projects/Projects.js';
-import Blog from './Components/Blog/Blog.js';
 import GitCheck from './Components/Projects/GitCheck.js';
+import Blog from './Components/Blog/Blog.js';
 import Footer from './Components/Footer/Footer.js';
 
 const App = () => {
@@ -19,10 +19,10 @@ const App = () => {
           <Header />
           <main>
             <Route exact path="/about" component={About} />
+            <Route exact path="/skills" component={Skills} />
             <Route exact path="/" component={Projects} />
             <Route exact path="/git-check" component={GitCheck} />
             <Route exact path="/blog" component={Blog} />
-            <Route exact path="/skills" component={Skills} />
           </main>
         </div>
         <Footer />
