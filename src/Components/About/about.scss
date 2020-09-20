@@ -7,14 +7,14 @@
   .p-container {
     width: 600px;
     margin: 25px 0 0 30px;
+    position: relative;
     p:first-child {
       margin-bottom: 50px;
-      position: relative;
     }
   }
 }
 
-.p-container p:first-child::before {
+.p-container::before {
   @include underlay;
   background-color: $quinaryColor;
 }
