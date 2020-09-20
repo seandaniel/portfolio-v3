@@ -1,0 +1,36 @@
+@import '../../variables';
+
+.project-img-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .project-content {
+    width: 500px;
+    margin: 25px 0 0 30px;
+    position: relative;
+    h2 {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.project-content-1::before {
+  @include underlay;
+  background-color: $quinaryColor;
+}
+
+.project-img-container h4 {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.button-container a:first-child {
+  margin-right: 10px;
+}
+
+.project-img-container img {
+  width: 500px;
+}

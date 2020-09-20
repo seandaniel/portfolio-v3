@@ -5,9 +5,21 @@
 $primaryColor: #272727;
 $secondaryColor: #546F81;
 $tertiaryColor: #fcfcfc;
-$quaternaryColor: rgba(84, 111, 129, 0.2);
-$quinaryColor: rgba(84, 111, 129, 0.05);
+$quaternaryColor: rgba(84, 111, 129, .2);
+$quinaryColor: rgba(84, 111, 129, .05);
 
 // fonts
 $primaryFont: 'Roboto', sans-serif;
 $secondaryFont: 'Roboto Slab', serif;
+
+// mixins
+
+@mixin underlay {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: -30px;
+  border-radius: 5px;
+  height: 100px;
+  width: 100%;
+}
