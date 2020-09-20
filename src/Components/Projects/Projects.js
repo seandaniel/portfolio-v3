@@ -16,34 +16,34 @@ const Projects = () => {
   return (
     <section>
       <ul className="projects-container">
-        <li><Link to={"/git-check"} className="project project1">
+        <li><Link to="/git-check" className="project project1">
           <img src={pieChart} alt="" />
           <h3>Git Check</h3>
         </Link></li>
-        <li><a href="www.seandegroot.com" className="project project2">
+        <li><Link to="/the-specific-press" className="project project2">
           <img src={article} alt="" />
           <h3>The Specific Press</h3>
-        </a></li>
-        <li><a href="www.seandegroot.com" className="project project3">
+        </Link></li>
+        <li><Link to="/verbeeks" className="project project3">
           <img src={flower} alt="" />
           <h3>Verbeek's</h3>
-        </a></li>
-        <li><a href="www.seandegroot.com" className="project project4">
+        </Link></li>
+        <li><Link to="/quarantine-pursuit" className="project project4">
           <img src={questionMark} alt="" />
           <h3>Quarantine Pursuit</h3>
-        </a></li>
-        <li><a href="www.seandegroot.com" className="project project5">
+        </Link></li>
+        <li><Link to="/foot-forward" className="project project5">
           <img src={shoe} alt="" />
           <h3>Foot Forward</h3>
-        </a></li>
-        <li><a href="www.seandegroot.com" className="project project6">
+        </Link></li>
+        <li><Link to="/seamus-golf" className="project project6">
           <img src={golfBall} alt="" />
           <h3>Seamus Golf</h3>
-        </a></li>
-        <li><a href="www.seandegroot.com" className="project project7">
+        </Link></li>
+        <li><Link to="/fun-place" className="project project7">
           <img src={skateboard} alt="" />
           <h3>Fun Place</h3>
-        </a></li>
+        </Link></li>
       </ul>
     </section>
   )

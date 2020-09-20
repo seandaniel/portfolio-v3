@@ -1,22 +1,28 @@
 import React from 'react';
 
-import './GitCheck.scss';
-import gitCheckMock from './assets/mockups/gitCheckMockup.png'
+import './projects.scss';
+import gitCheckDesktop from './assets/mockups/gitCheckDesktop.png'
+import gitCheckMobile from './assets/mockups/gitCheckMobile.png'
 
 const GitCheck = () => {
   return (
-    <section className="project-container">
-      <div className="project-img-container">
-        <div className="project-content project-content-1">
-          <h2>Git Check</h2>
-          <p>In today's world, it's important to stay in the know. Fetching thousands of up-to-date articles courtesy of The News API, this React app features a smooth browser and device consistency, all under a clean user interface.</p>
-          <h4>React / Hooks / Firebase / GitHub API</h4>
-          <div className="button-container">
-            <a href="https://seandaniel.github.io/git-check/" target="_blank" rel="noopener noreferrer" class="button">Live</a>
-            <a href="https://github.com/seandaniel/git-check" target="_blank" rel="noopener noreferrer" class="button">Code</a>
-          </div>
+    <section>
+      <div className="project-content project-content-1">
+        <h2>Git Check</h2>
+        <p>Search GitHub users to view their details including a list of public repositories, and most used languages showcased through Chart.js. Star your favorites to be viewed later with the help of Firebase, and navigate the application with flawless page transitions thanks to React Router.</p>
+        <h4>React / Hooks / Firebase / GitHub API</h4>
+        <div className="button-container">
+          <a href="https://seandaniel.github.io/git-check/" target="_blank" rel="noopener noreferrer" className="button">Live</a>
+          <a href="https://github.com/seandaniel/git-check" target="_blank" rel="noopener noreferrer" className="button">Code</a>
         </div>
-        <img src={gitCheckMock} alt="" />
+      </div>
+      <div className="mock-img-container mock-img-container-1">
+        <div className="individual-img-container">
+          <img src={gitCheckDesktop} alt="" />
+        </div>
+        <div className="individual-img-container">
+          <img src={gitCheckMobile} alt="" />
+        </div>
       </div>
     </section>
   )
