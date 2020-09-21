@@ -84,7 +84,7 @@ header nav ul {
   font-size: 14px;
   font-weight: 500;
   width: 300px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   li a {
     transition: color .35s;
     &:hover,
@@ -96,7 +96,7 @@ header nav ul {
 
 @media (max-width: 440px) {
   header nav ul {
-    margin: 0 auto 50px;
+    margin: 0 auto 100px;
   }
 }
 

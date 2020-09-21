@@ -2,13 +2,10 @@
 
 .blog-container {
   display: flex;
-  // bug
-  // flex-wrap: wrap;
   a {
     position: relative;
     top: 0;
     min-width: 350px;
-    max-width: 350px;
     border-radius: 5px;
     margin-right: 25px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
@@ -25,6 +22,39 @@
       height: 300px;
       border-radius: 5px 5px 0 0;
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  .blog-container {
+    width: 725px;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    a:nth-child(2) {
+      margin-right: 0;
+    }
+    a:last-child {
+      margin: 25px 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .blog-container {
+    width: 350px;
+    a:first-child {
+      margin: 0 0 50px 0;
+    }
+    a:last-child {
+      margin: 50px 0 0 0;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .blog-container a {
+    min-width: 300px;
   }
 }
 

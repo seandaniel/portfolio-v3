@@ -9,8 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 350px;
-    min-width: 350px;
+    width: 350px;
     padding: 100px 50px;
     border-radius: 5px;
     text-align: center;
@@ -31,12 +30,53 @@
   }
 }
 
-.projects-container .project3, .projects-container .project6 {
+.projects-container .project3, 
+.projects-container .project6 {
   margin-right: 0;
 }
 
 .projects-container .project7 {
   margin-bottom: 0;
+}
+
+@media (max-width: 1220px) {
+  .projects-container {
+    width: 725px;
+    margin: 0 auto 25px auto;
+    .project2 {
+      margin-right: 0;
+    }
+    .project3 {
+      margin-right: 0;
+    }
+    .project4 {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 1220px) {
+  .projects-container .project3 {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .projects-container {
+    width: 350px;
+    .project {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .projects-container {
+    justify-content: center;
+    .project {
+      width: 300px;
+    }
+  }
 }
 
 .project h3 {
