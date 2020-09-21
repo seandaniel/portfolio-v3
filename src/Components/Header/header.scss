@@ -9,6 +9,13 @@
   }
 }
 
+@media (max-width: 440px) {
+  .img-container img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
 .heading-container {
   margin-bottom: 100px;
   h1 {
@@ -29,6 +36,16 @@
   }
 }
 
+@media (max-width: 440px) {
+  .heading-container h1 {
+    font-size: 45px;
+  }
+
+  .heading-container h2 {
+    font-size: 25px;
+  }
+}
+
 h1::after {
   content: '';
   position: absolute;
@@ -38,6 +55,12 @@ h1::after {
   background: $quaternaryColor;
   height: 10px;
   border-radius: 5px;
+}
+
+@media (max-width: 440px) {
+  h1::after {
+    bottom: 3px;
+  }
 }
 
 .location-container {
@@ -68,6 +91,12 @@ header nav ul {
     &:focus {
       color: $secondaryColor;
     }
+  }
+}
+
+@media (max-width: 440px) {
+  header nav ul {
+    margin: 0 auto 50px;
   }
 }
 

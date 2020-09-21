@@ -24,23 +24,23 @@ const Skills = () => {
     <section className="skills-container">
       <ul className="main-skills-container">
         <li className="skills-1-card">
-          <img src={JavaScriptImg} alt="" />
+          <img src={JavaScriptImg} alt="JavaScript" />
           <p><span>JavaScript</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={ReactImg} alt="" />
+          <img src={ReactImg} alt="React" />
           <p><span>React</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={SassImg} alt="" />
+          <img src={SassImg} alt="Sass" />
           <p><span>Sass</span> sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={WordPressImg} alt="" />
+          <img src={WordPressImg} alt="WordPress" />
           <p><span>WordPress</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={ShopifyImg} alt="" />
+          <img src={ShopifyImg} alt="Shopify" />
           <p><span>Shopify</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
       </ul>
@@ -48,19 +48,19 @@ const Skills = () => {
         <li className="row-1">
           <ul>
             <li className="skills-2-card">
-              <img src={HTMLImg} alt="" />
+              <img src={HTMLImg} alt="HTML" />
               <p>HTML</p>
             </li>
             <li className="skills-2-card">
-              <img src={CSSImg} alt="" />
+              <img src={CSSImg} alt="CSS" />
               <p>CSS</p>
             </li>
             <li className="skills-2-card">
-              <img src={jQueryImg} alt="" />
+              <img src={jQueryImg} alt="jQuery" />
               <p>jQuery</p>
             </li>
             <li className="skills-2-card">
-              <img src={FirebaseImg} alt="" />
+              <img src={FirebaseImg} alt="Firebase" />
               <p>Firebase</p>
             </li>
           </ul>
@@ -68,19 +68,19 @@ const Skills = () => {
         <li className="row-2">
           <ul>
             <li className="skills-2-card">
-              <img src={GitImg} alt="" />
+              <img src={GitImg} alt="Git" />
               <p>Git</p>
             </li>
             <li className="skills-2-card">
-              <img src={NodeImg} alt="" />
+              <img src={NodeImg} alt="Node.js" />
               <p>Node.js</p>
             </li>
             <li className="skills-2-card">
-              <img src={NpmImage} alt="" />
+              <img src={NpmImage} alt="npm" />
               <p>npm</p>
             </li>
             <li className="skills-2-card last-skill">
-              <img src={GulpImg} alt="" />
+              <img src={GulpImg} alt="Gulp" />
               <p>Gulp</p>
             </li>
           </ul>

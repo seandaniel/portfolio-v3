@@ -73,9 +73,17 @@
 }
 
 // individual projects components
+.project-button-container {
+  display: flex;
+  justify-content: space-between;
+  .button-back {
+    height: 42px;
+  }
+}
+
 .project-content {
   width: 600px;
-  margin: 75px 0 50px 30px;
+  margin: 25px 0 50px 30px;
   h2 {
     margin-bottom: 20px;
   }

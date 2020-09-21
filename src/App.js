@@ -19,6 +19,7 @@ import FootForward from './Components/Projects/FootForward.js';
 import SeamusGolf from './Components/Projects/SeamusGolf.js';
 import FunPlace from './Components/Projects/FunPlace.js';
 
+
 const App = () => {
   return (
     <>

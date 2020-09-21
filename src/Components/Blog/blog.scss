@@ -4,7 +4,6 @@
   display: flex;
   // bug
   // flex-wrap: wrap;
-  margin-bottom: 100px;
   a {
     position: relative;
     top: 0;
@@ -15,7 +14,8 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
     opacity: 1;
     transition: opacity .35s, top .35s;
-    &:hover {
+    &:hover,
+    &:focus   {
       opacity: .7;
       top: -20px;
     }
