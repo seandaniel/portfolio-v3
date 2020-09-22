@@ -11,7 +11,7 @@ const SeamusGolf = () => {
     <section>
       <div className="project-button-container">
         <div className="project-content project-content-6">
-          <h2>Seamus Golf</h2>
+          <h2>Seamus Golf.</h2>
           <p>Photoshop design conversion</p>
           <h4>HTML / Sass / Responsive / Accessible</h4>
           <div className="button-container">

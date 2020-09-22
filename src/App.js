@@ -27,8 +27,8 @@ const App = () => {
         <div className="wrapper">
           <Header />
           <Suspense fallback={<LoadingAnimation />}>
-            <Switch>
-              <main>
+            <main>
+              <Switch>
                 <Route exact path="/about" component={About} />
                 <Route exact path="/skills" component={Skills} />
                 <Route exact path="/" component={Projects} />
@@ -40,8 +40,8 @@ const App = () => {
                 <Route exact path="/seamus-golf" component={SeamusGolf} />
                 <Route exact path="/fun-place" component={FunPlace} />
                 <Route exact path="/blog" component={Blog} />
-              </main>
-            </Switch>
+              </Switch>
+            </main>
           </Suspense>
         </div>
         <Footer />
