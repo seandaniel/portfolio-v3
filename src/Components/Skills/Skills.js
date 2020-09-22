@@ -24,23 +24,33 @@ const Skills = () => {
     <section className="skills-container">
       <ul className="main-skills-container">
         <li className="skills-1-card">
-          <img src={JavaScriptImg} alt="JavaScript" />
+          <div>
+            <img src={JavaScriptImg} alt="JavaScript" />
+          </div>
           <p><span>JavaScript</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={ReactImg} alt="React" />
+          <div>
+            <img src={ReactImg} alt="React" />
+          </div>
           <p><span>React</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={SassImg} alt="Sass" />
+          <div>
+            <img src={SassImg} alt="Sass" />
+          </div>
           <p><span>Sass</span> sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={WordPressImg} alt="WordPress" />
+          <div>
+            <img src={WordPressImg} alt="WordPress" />
+          </div>
           <p><span>WordPress</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
         <li className="skills-1-card">
-          <img src={ShopifyImg} alt="Shopify" />
+          <div>
+            <img src={ShopifyImg} alt="Shopify" />
+          </div>
           <p><span>Shopify</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
       </ul>
@@ -48,19 +58,27 @@ const Skills = () => {
         <li className="row-1">
           <ul>
             <li className="skills-2-card">
-              <img src={HTMLImg} alt="HTML" />
+              <div>
+                <img src={HTMLImg} alt="HTML" />
+              </div>
               <p>HTML</p>
             </li>
             <li className="skills-2-card">
-              <img src={CSSImg} alt="CSS" />
+              <div>
+                <img src={CSSImg} alt="CSS" />
+              </div>
               <p>CSS</p>
             </li>
             <li className="skills-2-card">
-              <img src={jQueryImg} alt="jQuery" />
+              <div>
+                <img src={jQueryImg} alt="jQuery" />
+              </div>
               <p>jQuery</p>
             </li>
             <li className="skills-2-card">
-              <img src={FirebaseImg} alt="Firebase" />
+              <div>
+                <img src={FirebaseImg} alt="Firebase" />
+              </div>
               <p>Firebase</p>
             </li>
           </ul>
@@ -68,19 +86,27 @@ const Skills = () => {
         <li className="row-2">
           <ul>
             <li className="skills-2-card">
-              <img src={GitImg} alt="Git" />
+              <div>
+                <img src={GitImg} alt="Git" />
+              </div>
               <p>Git</p>
             </li>
             <li className="skills-2-card">
-              <img src={NodeImg} alt="Node.js" />
+              <div>
+                <img src={NodeImg} alt="Node.js" />
+              </div>
               <p>Node.js</p>
             </li>
             <li className="skills-2-card">
-              <img src={NpmImage} alt="npm" />
+              <div>
+                <img src={NpmImage} alt="npm" />
+              </div>
               <p>npm</p>
             </li>
             <li className="skills-2-card last-skill">
-              <img src={GulpImg} alt="Gulp" />
+              <div>
+                <img src={GulpImg} alt="Gulp" />
+              </div>
               <p>Gulp</p>
             </li>
           </ul>

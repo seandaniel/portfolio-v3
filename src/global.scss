@@ -75,3 +75,16 @@ main {
     background-color: inherit;
   }
 }
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px 5px 0 0;
+  background-color: $quinaryColor;
+  height: 25px;
+  padding: 0 8px;
+  width: 100%;
+}
