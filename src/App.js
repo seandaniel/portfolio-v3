@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 // components
 import Header from './Components/Header/Header.js';
 import Footer from './Components/Footer/Footer.js';
+import LoadingAnimation from './Components/LoadingAnimation/LoadingAnimation.js';
 
 const About = lazy(() => import('./Components/About/About.js'));
 const Skills = lazy(() => import('./Components/Skills/Skills.js'));
@@ -25,7 +26,7 @@ const App = () => {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div className="wrapper">
           <Header />
-          <Suspense fallback={<div>Loading</div>}>
+          <Suspense fallback={<LoadingAnimation />}>
             <Switch>
               <main>
                 <Route exact path="/about" component={About} />

@@ -1,0 +1,26 @@
+@import '../../variables.scss';
+
+.loading-animation-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 100px;
+  img {
+    height: 180px;
+    width: 180px;
+    animation: pulse 2s ease infinite;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(2);
+    color: $tertiaryColor;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
