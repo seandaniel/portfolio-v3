@@ -53,14 +53,25 @@
   }
 }
 
-.toolbar p {
-  margin-left: 60px;
-  font-size: 10px;
-  font-weight: 500;
+.toolbar {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 5px 5px 0 0;
+  background-color: $quinaryColor;
+  height: 25px;
+  padding: 0 8px;
+  width: 100%;
+  p {
+    margin-left: 60px;
+    font-size: 10px;
+    font-weight: 500;
+  }
 }
 
 .p-img-container img {
-  position: relative;
   object-fit: cover;
   border-radius: 0 0 5px 5px;
   height: 400px;
