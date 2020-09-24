@@ -12,7 +12,7 @@ const SeamusGolf = () => {
       <div className="project-button-container">
         <div className="project-content project-content-6">
           <h2>Seamus Golf.</h2>
-          <p>Photoshop design conversion</p>
+          <p>An e-commerce styled Photoshop design conversion.</p>
           <h4>HTML / Sass / Responsive / Accessible</h4>
           <div className="button-container">
             <a href="https://seandaniel.github.io/seamus-golf/" target="_blank" rel="noopener noreferrer" className="button">Live</a>
