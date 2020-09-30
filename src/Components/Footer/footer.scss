@@ -58,12 +58,11 @@ footer {
     margin-right: 10px;
     margin-bottom: 37px;
     a {
-      color: $secondaryColor;
       text-decoration: underline;
       transition: color .35s;
       &:hover,
       &:focus {
-        color: $tertiaryColor;
+        color: $secondaryColor;
       }
     }
   }
