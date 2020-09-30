@@ -13,8 +13,8 @@ import jQueryImg from './assets/jquery-plain.svg';
 import FirebaseImg from './assets/firebase.png';
 import GitImg from './assets/git-plain.svg';
 import NodeImg from './assets/nodejs-plain.svg';
-import NpmImage from './assets/npm-original-wordmark.svg';
-import GulpImg from './assets/gulp-plain.svg';
+import npmImg from './assets/npm-original-wordmark.svg';
+import phpImg from './assets/php-plain.svg';
 import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
 import shred from './assets/shredOptimized.mp4';
 import shredPreview from './assets/shredPreview.jpg';
@@ -77,9 +77,9 @@ const Skills = () => {
             </li>
             <li className="skills-2-card">
               <div>
-                <img src={FirebaseImg} alt="Firebase" />
+                <img src={phpImg} alt="PHP" />
               </div>
-              <p>Firebase</p>
+              <p>PHP</p>
             </li>
           </ul>
         </li>
@@ -99,15 +99,15 @@ const Skills = () => {
             </li>
             <li className="skills-2-card">
               <div>
-                <img src={NpmImage} alt="npm" />
+                <img src={npmImg} alt="npm" />
               </div>
               <p>npm</p>
             </li>
-            <li className="skills-2-card last-skill">
+            <li className="skills-2-card">
               <div>
-                <img src={GulpImg} alt="Gulp" />
+                <img src={FirebaseImg} alt="Firebase" />
               </div>
-              <p>Gulp</p>
+              <p>Firebase</p>
             </li>
           </ul>
         </li>

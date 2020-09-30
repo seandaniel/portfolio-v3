@@ -91,7 +91,7 @@
   }
 }
 
-.row-1 ul {
+.row-2 ul {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
@@ -101,12 +101,14 @@
   .row-1 ul {
     width: 200px;
     justify-content: center;
-    .skills-2-card:nth-child(2) {
+    .skills-2-card:nth-child(2),
+    .skills-2-card:last-child {
       margin-right: 0;
     }
   }
 
   .row-2 ul {
+    justify-content: center;
     width: 200px;
     .skills-2-card:nth-child(2) {
       margin-right: 0;
@@ -131,12 +133,11 @@
 //   margin-right: 0;
 // }
 
-
-.row-1 ul li:last-child {
+.row-2 ul li:last-child {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  height: 110.933px;
+  height: 111.1px;
   padding: 0 20px 10px;
   margin-right: 0;
   img {
