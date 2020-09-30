@@ -75,7 +75,7 @@ const Skills = () => {
               </div>
               <p>jQuery</p>
             </li>
-            <li className="skills-2-card">
+            <li className="skills-2-card last-skill">
               <div>
                 <img src={phpImg} alt="PHP" />
               </div>
