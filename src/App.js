@@ -10,7 +10,7 @@ import LoadingAnimation from './Components/LoadingAnimation/LoadingAnimation.js'
 const About = lazy(() => import('./Components/About/About.js'));
 const Skills = lazy(() => import('./Components/Skills/Skills.js'));
 const Projects = lazy(() => import('./Components/Projects/Projects.js'));
-const Blog = lazy(() => import('./Components/Blog/Blog.js'));
+const Words = lazy(() => import('./Components/Words/Words.js'));
 
 const GitCheck = lazy(() => import('./Components/Projects/GitCheck.js'));
 const TheSpecificPress = lazy(() => import('./Components/Projects/TheSpecificPress.js'));
@@ -18,6 +18,7 @@ const Verbeeks = lazy(() => import('./Components/Projects/Verbeeks.js'));
 const QuarantinePursuit = lazy(() => import('./Components/Projects/QuarantinePursuit.js'));
 const FootForward = lazy(() => import('./Components/Projects/FootForward.js'));
 const SeamusGolf = lazy(() => import('./Components/Projects/SeamusGolf'));
+const RocketVision = lazy(() => import('./Components/Projects/RocketVision'));
 const FunPlace = lazy(() => import('./Components/Projects/FunPlace'));
 
 const App = () => {
@@ -38,8 +39,9 @@ const App = () => {
                 <Route exact path="/quarantine-pursuit" component={QuarantinePursuit} />
                 <Route exact path="/foot-forward" component={FootForward} />
                 <Route exact path="/seamus-golf" component={SeamusGolf} />
+                <Route exact path="/rocket-vision" component={RocketVision} />
                 <Route exact path="/fun-place" component={FunPlace} />
-                <Route exact path="/blog" component={Blog} />
+                <Route exact path="/words" component={Words} />
               </Switch>
             </main>
           </Suspense>

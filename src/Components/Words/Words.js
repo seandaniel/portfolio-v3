@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './blog.scss';
+import './words.scss';
 
 // assets
 import article1Image from './assets/article1Image.jpeg';
@@ -8,9 +8,9 @@ import article2Image from './assets/article2Image.jpeg';
 import article3Image from './assets/article3Image.jpeg';
 import { FaMedium } from 'react-icons/fa';
 
-const Blog = () => {
+const Words = () => {
   return (
-    <section className="blog-container">
+    <section className="words-container">
       <a href="https://medium.com/dev-genius/modern-loops-in-javascript-9980ee4ae9e3" target="_blank" rel="noopener noreferrer" aria-label="Read 'Modern Loops in JavaScript' via Medium">
         <img src={article2Image} alt="A ferris wheeling spinning imitating a loop" />
         <article className="article-content">
@@ -45,4 +45,4 @@ const Blog = () => {
   )
 }
 
-export default Blog;
+export default Words;

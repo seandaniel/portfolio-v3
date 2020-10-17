@@ -10,6 +10,7 @@ import flower from './assets/growth.svg';
 import questionMark from './assets/mario-surprise.svg';
 import shoe from './assets/sprint.svg';
 import golfBall from './assets/golf.svg';
+import rocket from './assets/rocket.svg'
 import skateboard from './assets/skateboard.svg';
 
 const Projects = () => {
@@ -39,6 +40,10 @@ const Projects = () => {
         <li><Link to="/seamus-golf" className="project project6" aria-label="View Seamus Golf">
           <img src={golfBall} alt="A golf ball teed up" />
           <h3>Seamus Golf</h3>
+        </Link></li>
+        <li><Link to="/rocket-vision" className="project project8" aria-label="View Rocket Vision">
+          <img src={rocket} alt="A rocket blasting off" />
+          <h3>Rocket Vision</h3>
         </Link></li>
         <li><Link to="/fun-place" className="project project7" aria-label="View Fun Place">
           <img src={skateboard} alt="A view underneath a skateboard" />
