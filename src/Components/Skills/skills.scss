@@ -38,12 +38,19 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 450px) {
   .skills-1-card {
     flex-direction: column;
     img {
       margin: 0 0 20px 0;
     }
+  }
+}
+
+@media (max-width: 370px) {
+  .skills-1-card {
+    flex-direction: column;
+    width: 300px;
   }
 }
 
