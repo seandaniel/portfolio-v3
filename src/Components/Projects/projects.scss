@@ -213,7 +213,7 @@
 
 .project-content-1::before {
   @include underlay;
-  background-color: rgba(36, 41, 46, .15);
+  background-color: rgba(36, 41, 46, .05);
 }
 
 .project-content-2::before {
@@ -252,7 +252,7 @@
 }
 
 .mock-img-container-1 img {
-  background: linear-gradient(rgba(36, 41, 46, .15) 30%, rgba(36, 41, 46, 1));
+  background: linear-gradient(rgba(36, 41, 46, .05) 30%, rgba(36, 41, 46, .5));
 }
 
 .mock-img-container-2 img {
