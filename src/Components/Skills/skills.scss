@@ -1,74 +1,67 @@
 @import '../../variables.scss';
 
-.skills-container {
+.skills-video-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 @media (max-width: 1050px) {
-  .skills-container {
+  .skills-video-container {
     flex-direction: column;
   }
 }
 
 .skills-1-card {
-  display: flex;
-  align-items: center;
+  display: inline-block;
+  text-align: center;
   padding: 20px; 
-  width: 450px;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
   border-radius: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   img {
     height: 80px;
     width: 80px;
-    margin-right: 50px;
-  }
-  p span {
-    font-size: 16px;
-    line-height: 1.4;
-    font-weight: 500;
+    margin-bottom: 10px;
   }
 }
 
-@media (max-width: 500px) {
+.main-skills-container {
+  width: 450px;
   .skills-1-card {
-    width: 100%;
+    margin-right: 20px;
   }
 }
 
-@media (max-width: 450px) {
-  .skills-1-card {
-    flex-direction: column;
-    img {
-      margin: 0 0 20px 0;
+@media (max-width: 1050px) {
+  .main-skills-container {
+    text-align: center;
+    margin-bottom: 100px;
+    li:nth-child(3),
+    li:nth-child(5) {
+      margin-right: 0;
+   }
+  }
+}
+
+@media (max-width: 550px) {
+  .main-skills-container {
+    width: 300px;
+    li:nth-child(2),
+    li:nth-child(4) {
+      margin-right: 0;
+    }
+    li:nth-child(3) {
+      margin-right: 20px;
     }
   }
 }
 
-@media (max-width: 370px) {
-  .skills-1-card {
-    flex-direction: column;
-    width: 300px;
-  }
-}
-
-.main-skills-container .skills-1-card:last-child {
-  margin-bottom: 0;
-}
-
 @media (max-width: 1050px) {
-  .main-skills-container .skills-1-card:last-child {
+  .secondary-skills-container {
     margin-bottom: 100px;
+    text-align: center;
   }
-}
-
-.secondary-skills-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
 .skills-2-card {
@@ -100,13 +93,21 @@
 
 .row-2 ul {
   display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
+  align-items: flex-start;
+}
+
+@media (max-width: 1050px) {
+  .row-2 ul {
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 550px) {
   .row-1 ul {
     width: 200px;
+    margin: 0 auto;
     justify-content: center;
     .skills-2-card:nth-child(2) {
       margin-right: 0;
@@ -156,8 +157,21 @@
 }
 
 .row-3 {
-  // -20px from .row-3 .skills-2-card's
-  margin-bottom: 80px;
+  margin-bottom: 0;
+  li {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 550px) {
+  .row-3 li {
+    margin-bottom: 10px;
+  }
+
+  .row-3 li:nth-child(3),
+  .row-3 li:nth-child(4) {
+    margin-bottom: 0;
+  }
 }
 
 .video-container {
@@ -165,6 +179,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   video {
     width: 300px;
     height: 400px;
