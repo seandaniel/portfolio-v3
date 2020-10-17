@@ -13,8 +13,8 @@ import jQueryImg from './assets/jquery-plain.svg';
 import FirebaseImg from './assets/firebase.png';
 import GitImg from './assets/git-plain.svg';
 import NodeImg from './assets/nodejs-plain.svg';
-import npmImg from './assets/npm-original-wordmark.svg';
-import phpImg from './assets/php-plain.svg';
+import NPMImg from './assets/npm-original-wordmark.svg';
+import PHPImg from './assets/php-plain.svg';
 import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
 import shred from './assets/shredOptimized.mp4';
 import shredPreview from './assets/shredPreview.jpg';
@@ -43,15 +43,15 @@ const Skills = () => {
         </li>
         <li className="skills-1-card">
           <div>
-            <img src={WordPressImg} alt="WordPress" />
-          </div>
-          <p><span>WordPress</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
-        </li>
-        <li className="skills-1-card">
-          <div>
             <img src={ShopifyImg} alt="Shopify" />
           </div>
           <p><span>Shopify</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
+        </li>
+        <li className="skills-1-card">
+          <div>
+            <img src={WordPressImg} alt="WordPress" />
+          </div>
+          <p><span>WordPress</span> dolor sit amet consectetur, adipisicing elit. Beatae necessitatibus, amet consectetur autem quaerat accusantium harum iure expedita sit iste?</p>
         </li>
       </ul>
       <ul className="secondary-skills-container">
@@ -77,7 +77,7 @@ const Skills = () => {
             </li>
             <li className="skills-2-card last-skill">
               <div>
-                <img src={phpImg} alt="PHP" />
+                <img src={PHPImg} alt="PHP" />
               </div>
               <p>PHP</p>
             </li>
@@ -99,7 +99,7 @@ const Skills = () => {
             </li>
             <li className="skills-2-card">
               <div>
-                <img src={npmImg} alt="npm" />
+                <img src={NPMImg} alt="npm" />
               </div>
               <p>npm</p>
             </li>
