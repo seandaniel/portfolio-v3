@@ -31,30 +31,20 @@
 }
 
 .projects-container .project3, 
-.projects-container .project6 {
-  margin-right: 0;
-}
-
+.projects-container .project6,
 .projects-container .project7 {
-  margin-bottom: 0;
+  margin-right: 0;
 }
 
 @media (max-width: 1220px) {
   .projects-container {
     width: 725px;
     margin: 0 auto 25px auto;
-    .project2 {
-      margin-right: 0;
-    }
-    .project3 {
-      margin-right: 0;
-    }
-    .project4 {
-      margin-right: 0;
-    }
+    .project2,
+    .project3,
+    .project4,
     .project7 {
-      // 725 -350 = 375 / 2 = 187.5
-      margin: 0 187.5px;
+      margin-right: 0;
     }
   }
 }
@@ -65,7 +55,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 800px) {
   .projects-container {
     width: 350px;
     .project {
@@ -132,7 +122,6 @@
     align-items: center;
   }
 }
-
 
 .project-button-container {
   display: flex;
