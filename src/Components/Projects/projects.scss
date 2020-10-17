@@ -213,7 +213,7 @@
 
 .project-content-1::before {
   @include underlay;
-  background-color: rgba(204, 201, 220, .15);
+  background-color: rgba(36, 41, 46, .15);
 }
 
 .project-content-2::before {
@@ -252,31 +252,31 @@
 }
 
 .mock-img-container-1 img {
-  background: linear-gradient(rgba(209, 210, 211, .15) 30%, rgba(209, 210, 211, 1));
+  background: linear-gradient(rgba(36, 41, 46, .15) 30%, rgba(36, 41, 46, 1));
 }
 
 .mock-img-container-2 img {
-  background: linear-gradient(rgba(204, 201, 220, .15) 30%, rgba(204, 201, 220, .9));
+  background: linear-gradient(rgba(204, 201, 220, .15) 30%, rgba(204, 201, 220, 1));
 }
 
 .mock-img-container-3 img {
-  background: linear-gradient(rgba(181, 200, 170, .15) 30%, rgba(181, 200, 170, .9));
+  background: linear-gradient(rgba(181, 200, 170, .15) 30%, rgba(181, 200, 170, 1));
 }
 
 .mock-img-container-4 img {
-  background: linear-gradient(rgba(190, 239, 254, .15) 30%, rgba(190, 239, 254, .9));
+  background: linear-gradient(rgba(190, 239, 254, .15) 30%, rgba(190, 239, 254, 1));
 }
 
 .mock-img-container-5 img {
-  background: linear-gradient(rgba(246, 203, 187, .15) 30%, rgba(246, 203, 187, .9));
+  background: linear-gradient(rgba(246, 203, 187, .15) 30%, rgba(246, 203, 187, 1));
 }
 
 .mock-img-container-6 img {
-  background: linear-gradient(rgba(251, 221, 221, .15) 30%, rgba(251, 221, 221, .9));
+  background: linear-gradient(rgba(251, 221, 221, .15) 30%, rgba(251, 221, 221, 1));
 }
 
 .mock-img-container-7 img {
-  background: linear-gradient(rgba(153, 194, 201, .15) 30%, rgba(153, 194, 201, .9));
+  background: linear-gradient(rgba(153, 194, 201, .15) 30%, rgba(153, 194, 201, 1));
 }
 
 .mock-img-container-8 img {
