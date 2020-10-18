@@ -46,7 +46,7 @@ const Skills = () => {
             <div>
               <img src={ShopifyImg} alt="Shopify" />
             </div>
-            <p>Shopify</p>
+            <p>Shopify/Liquid</p>
           </li>
           <li className="skills-1-card">
             <div>
