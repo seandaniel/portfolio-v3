@@ -17,6 +17,7 @@
     opacity: 1;
     top: 0;
     transition: opacity .35s, top .35s;
+    display: inline-block;
     &:hover,
     &:focus {
       opacity: .7;
@@ -34,6 +35,11 @@
 .projects-container .project6,
 .projects-container .project7 {
   margin-right: 0;
+}
+
+.projects-container .project7,
+.projects-container .project8 {
+  margin-bottom: 0;
 }
 
 @media (max-width: 1220px) {
@@ -67,12 +73,12 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
   .projects-container {
-    width: 300px;
-    justify-content: center;
+    width: 100%;
+    display: block;
     .project {
-      width: 300px;
+      width: 100%;
     }
   }
 }

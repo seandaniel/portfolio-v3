@@ -18,7 +18,7 @@
     }
     img {
       object-fit: cover;
-      width: 100%;
+      width: 350px;
       height: 300px;
       border-radius: 5px 5px 0 0;
     }
@@ -52,9 +52,15 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
   .words-container {
-    width: 300px;
+    width: 100%;
+    a {
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 
