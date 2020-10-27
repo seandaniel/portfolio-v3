@@ -15,6 +15,7 @@ const RocketVision = () => {
           <p>A WordPress Photoshop design conversion.</p>
           <h4>WordPress / PHP / Sass / Accessible</h4>
           <div className="button-container">
+            <a href="mailto:degroot.sd@gmail.com" className="button">Request</a>
             <a href="https://github.com/seandaniel/rocket-vision" target="_blank" rel="noopener noreferrer" className="button">Code</a>
             <Link to="/" className="button button-back button-mobile" aria-label="Back"><FaArrowLeft /></Link>
           </div>
