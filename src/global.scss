@@ -12,6 +12,13 @@ html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: 
 @import './variables.scss';
 
 // global
+
+::selection {
+  color: $tertiaryColor;
+  background: $secondaryColor;
+  transition: .35s;
+}
+
 body {
   font-family: $primaryFont;
   color: $primaryColor;
