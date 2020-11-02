@@ -13,7 +13,7 @@ import jQueryImg from './assets/jquery-plain.svg';
 import FirebaseImg from './assets/firebase.png';
 import GitImg from './assets/git-plain.svg';
 import NodeImg from './assets/nodejs-plain.svg';
-import NPMImg from './assets/npm-original-wordmark.svg';
+import GulpImg from './assets/gulp-plain.svg';
 import PHPImg from './assets/php-plain.svg';
 import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
 import shred from './assets/shredOptimized.mp4';
@@ -100,9 +100,9 @@ const Skills = () => {
               </li>
               <li className="skills-2-card">
                 <div>
-                  <img src={NPMImg} alt="npm" />
+                  <img src={GulpImg} alt="Gulp" />
                 </div>
-                <p>npm</p>
+                <p>Gulp</p>
               </li>
               <li className="skills-2-card">
                 <div>
