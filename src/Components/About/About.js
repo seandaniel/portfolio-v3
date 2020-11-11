@@ -9,8 +9,8 @@ const About = () => {
   return (
     <section className="p-img-container">
       <div className="p-container">
-        <p>A web developer who has a passion for progressive technology, and well-designed products that provide meaningful solutions. My creativity stems from my passion for snowboarding, while my methodical way of thinking relates to following the Toronto Blue Jays. I am a Juno College graduate who takes pride in writing semantic, reusable code that produces web applications that engage with people, providing the best user experience. </p>
-        <p>My experience consists of building web applications using HTML, CSS compiled with Sass, JavaScript, and jQuery with a strong focus on React. I am confident in using Git to collaborate, working with API integrations, and manipulating information in a database. Meeting web accessibility standards, responsive design, establishing SEO, and being able to manage a project’s scope are skills I possess. Clean interfaces with smooth transitions are adamant in my projects, all through maintainable stylesheets.</p>
+        <p>A web developer who has a passion for progressive technology, and well-designed products that provide meaningful solutions. My creativity stems from my passion for snowboarding, while my methodical way of thinking relates to my time on the golf course and following the Toronto Blue Jays.</p>
+        <p>I build web applications using HTML, Sass, JavaScript, and React, as well as Shopify stores through Liquid. Learning about a new project excites me, as I look forward to aligning with the partner's vision in providing an intuitive digital product. Clean interfaces with smooth transitions are adamant in my projects with a seamless user experience at the forefront.</p>
       </div>
       <div className="img-container">
         <div className="toolbar">
