@@ -15,7 +15,7 @@ const Verbeeks = () => {
           <p>Verbeek's services everyone from the home gardener to the largest farm properties across their residing county. Built and designed through Sass partials with the demographic in mind, conveying the business's information precisely.</p>
           <h4>HTML / Sass / jQuery</h4>
           <div className="button-container">
-            <a href="https://verbeekslandscaping.com/" target="_blank" rel="noopener noreferrer" className="button">Live</a>
+            <a href="https://verbeekslandscaping.com/" target="_blank" rel="noopener noreferrer" className="button">View</a>
             <a href="https://github.com/seandaniel/Verbeek-s" target="_blank" rel="noopener noreferrer" className="button">Code</a>
             <Link to="/" className="button button-back button-mobile" aria-label="Back"><FaArrowLeft /></Link>
           </div>

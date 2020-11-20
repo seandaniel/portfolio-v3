@@ -15,7 +15,7 @@ const SeamusGolf = () => {
           <p>An e-commerce styled Photoshop design conversion.</p>
           <h4>HTML / Sass / Responsive / Accessible</h4>
           <div className="button-container">
-            <a href="https://seandaniel.github.io/seamus-golf/" target="_blank" rel="noopener noreferrer" className="button">Live</a>
+            <a href="https://seandaniel.github.io/seamus-golf/" target="_blank" rel="noopener noreferrer" className="button">View</a>
             <a href="https://github.com/seandaniel/seamus-golf" target="_blank" rel="noopener noreferrer" className="button">Code</a>
             <Link to="/" className="button button-back button-mobile" aria-label="Back"><FaArrowLeft /></Link>
           </div>
