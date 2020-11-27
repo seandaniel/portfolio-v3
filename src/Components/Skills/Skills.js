@@ -12,7 +12,7 @@ import CSSImg from './assets/css3-plain.svg';
 import jQueryImg from './assets/jquery-plain.svg';
 import FirebaseImg from './assets/firebase.png';
 import GitImg from './assets/git-plain.svg';
-import NodeImg from './assets/nodejs-plain.svg';
+import GitHubImg from './assets/github-original.svg';
 import GulpImg from './assets/gulp-plain.svg';
 import PHPImg from './assets/php-plain.svg';
 import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
@@ -88,15 +88,15 @@ const Skills = () => {
             <ul>
               <li className="skills-2-card">
                 <div>
-                  <img src={GitImg} alt="Git" />
+                  <img src={GitHubImg} alt="GitHub" />
                 </div>
-                <p>Git</p>
+                <p>GitHub</p>
               </li>
               <li className="skills-2-card">
                 <div>
-                  <img src={NodeImg} alt="Node.js" />
+                  <img src={GitImg} alt="Git" />
                 </div>
-                <p>Node.js</p>
+                <p>Git</p>
               </li>
               <li className="skills-2-card">
                 <div>
