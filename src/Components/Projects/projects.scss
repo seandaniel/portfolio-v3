@@ -103,7 +103,7 @@
 }
 
 .project3 {
-  background-color: rgba(181, 200, 170);
+  background-color: rgba(191, 211, 117, .6);
 }
 
 .project4 {
@@ -234,7 +234,7 @@
 
 .project-content-3::before {
   @include underlay;
-  background-color: rgba(181, 200, 170, .15);
+  background-color: rgba(191, 211, 117, .15);
 }
 
 .project-content-4::before {
@@ -271,7 +271,7 @@
 }
 
 .mock-img-container-3 img {
-  background: linear-gradient(rgba(181, 200, 170, .15) 30%, rgba(181, 200, 170, 1));
+  background: linear-gradient(rgba(191, 211, 117, .15) 30%, rgba(191, 211, 117, .5));
 }
 
 .mock-img-container-4 img {
