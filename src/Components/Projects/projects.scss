@@ -191,23 +191,40 @@
 
 .mock-img-container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  img {
-    width: 650px;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 100px;
+  justify-content: space-between;
+  .individual-img-container:first-child {
+    width: 60%;
+    display: inherit;
+    img {
+      width: 100%;
+      border-radius: 5px;
+    }
   }
 }
 
-.mock-img-container div:last-child img {
-  margin-bottom: 0;
+.mock-img-container .individual-img-container:last-child  {
+  width: 35%;
+  display: inherit;
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
 }
 
-@media (max-width: 800px) {
-  .mock-img-container img {
-    width: 100%;
+@media (max-width: 710px) {
+  .mock-img-container {
+    display: flex;
+    flex-direction: column;
+    .individual-img-container:first-child {
+      width: 100%;
+      margin-bottom: 100px;
+    }
+  }
+
+  .mock-img-container .individual-img-container:last-child {
+    width: 80%;
   }
 }
 
