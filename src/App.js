@@ -33,14 +33,14 @@ const App = () => {
                 <Route exact path="/about" component={About} />
                 <Route exact path="/skills" component={Skills} />
                 <Route exact path="/" component={Projects} />
-                <Route exact path="/git-check" component={GitCheck} />
-                <Route exact path="/the-specific-press" component={TheSpecificPress} />
-                <Route exact path="/verbeeks" component={Verbeeks} />
-                <Route exact path="/quarantine-pursuit" component={QuarantinePursuit} />
-                <Route exact path="/foot-forward" component={FootForward} />
-                <Route exact path="/seamus-golf" component={SeamusGolf} />
-                <Route exact path="/rocket-vision" component={RocketVision} />
-                <Route exact path="/fun-place" component={FunPlace} />
+                <Route exact path="/git-check" component={GitCheck} aria-label="View Git Check"/>
+                <Route exact path="/the-specific-press" component={TheSpecificPress} aria-label="View The Specific Press"/>
+                <Route exact path="/verbeeks" component={Verbeeks} aria-label="View Verbeek's"/>
+                <Route exact path="/quarantine-pursuit" component={QuarantinePursuit} aria-label="View QuarantinePursuit"/>
+                <Route exact path="/foot-forward" component={FootForward} aria-label="View Foot Forward"/>
+                <Route exact path="/seamus-golf" component={SeamusGolf} aria-label="View Seamus Golf"/>
+                <Route exact path="/rocket-vision" component={RocketVision} aria-label="View Rocket Vision"/>
+                <Route exact path="/fun-place" component={FunPlace} aria-label="View Fun Place"/>
                 <Route exact path="/words" component={Words} />
               </Switch>
             </main>
