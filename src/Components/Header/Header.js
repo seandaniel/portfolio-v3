@@ -63,7 +63,7 @@ const Header = () => {
             <span className="underline"></span>
           </li>
           <li>
-            <Link onClick={toggleColor} to="/words">words</Link>
+            <Link onClick={toggleColor} to="/words">Words</Link>
             <span className="underline"></span>
           </li>
         </ul>

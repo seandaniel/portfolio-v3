@@ -22,7 +22,7 @@ const Projects = () => {
           <h3>Git Check</h3>
         </Link></li>
         <li><Link to="/the-specific-press" className="project project2" aria-label="View The Specific Press">
-          <img src={article} alt="Paper with writing and an photograph" />
+          <img src={article} alt="A piece of paper with writing and a photograph" />
           <h3>The Specific Press</h3>
         </Link></li>
         <li><Link to="/verbeeks" className="project project3" aria-label="View Verbeek's">
