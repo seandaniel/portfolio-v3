@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="https://unsplash.com/@jontyson" target="_blank" rel="noopener noreferrer" aria-label="View Jon Tyson's work" title="Jon Tyson"> JT</a>,
                 <a href="https://unsplash.com/@carlheyerdahl" target="_blank" rel="noopener noreferrer" aria-label="View Carl Heyderdahl's work" title="Carl Heyerdahl"> CH</a>"/>
               </p>
-              <p>© 2020 Sean de Groot</p>
+              <p>© 2021 Sean de Groot</p>
             </div>
             <img src={mountainsFooter} alt="Three mountains with snow-peaked tops" />
           </div>
