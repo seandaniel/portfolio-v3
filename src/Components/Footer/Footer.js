@@ -3,7 +3,7 @@ import React from 'react';
 import './footer.scss';
 
 // assets
-import mountainsFooter from './assets/mountains.svg';
+import golfBag from './assets/golfbag.svg';
 import { FaLinkedin, FaGithub, FaTwitter, FaMedium } from 'react-icons/fa'
 
 const Footer = () => {
@@ -26,7 +26,7 @@ const Footer = () => {
               </p>
               <p>© 2021 Sean de Groot</p>
             </div>
-            <img src={mountainsFooter} alt="Three mountains with snow-peaked tops" />
+            <img src={golfBag} alt="A golf bag with three irons sticking out" />
           </div>
         </div>
       </div>

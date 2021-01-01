@@ -16,8 +16,8 @@ import GitHubImg from './assets/github-original.svg';
 import GulpImg from './assets/gulp-plain.svg';
 import PHPImg from './assets/php-plain.svg';
 import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
-import shred from './assets/shredOptimized.mp4';
-import shredPreview from './assets/shredPreview.jpg';
+import golfShot from './assets/golfShot.mp4';
+import golfShotPreview from './assets/golfShotPreview.png';
 
 const Skills = () => {
   return (
@@ -135,10 +135,10 @@ const Skills = () => {
         </ul>
       </div>
       <div className="video-container">
-        <video poster={shredPreview} src={shred}
-          alt="A snowboarder doing a 360 off a natural jump" autoPlay controls loop muted></video>
+        <video poster={golfShotPreview} src={golfShot}
+          alt="A golfer swinging a wedge at a driving range" autoPlay controls loop muted></video>
         <div className="video-content">
-          <p>Snowboard skills</p>
+          <p>Golf skills</p>
         </div>
       </div>
     </section>

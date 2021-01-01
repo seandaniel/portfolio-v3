@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import './header.scss';
 
 // assets
-import mountains from './assets/mountains.svg';
+import golfBag from './assets/golfbag.svg';
 import { FaMapMarkerAlt } from 'react-icons/fa'
 
 
@@ -36,8 +36,8 @@ const Header = () => {
 
   return (
     <header onLoad={onLoad}>
-      <div className="img-container">
-        <img src={mountains} alt="Three mountains with snow-peaked tops" />
+      <div className="header-img-container">
+        <img src={golfBag} alt="A golfbag with three irons sticking out" />
       </div>
       <div className="heading-container">
         <h1>Sean de Groot</h1>

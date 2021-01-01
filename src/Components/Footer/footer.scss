@@ -2,6 +2,13 @@
 
 footer {
   background: $primaryColor;
+  padding: 25px 0;
+}
+
+@media (max-width: 600px) {
+  footer {
+    padding: 50px 0;
+  }
 }
 
 .footer-container {
@@ -37,14 +44,14 @@ footer {
     flex-direction: column;
     align-items: center;
     .icons-ul {
-      padding-top: 40px;
+      margin-bottom: 50px;
     }
   }
 }
 
 .footer-container img {
-  height: 130px;
-  width: 130px;
+  height: 120px;
+  width: 120px;
 }
 
 .copyright-img-container {
