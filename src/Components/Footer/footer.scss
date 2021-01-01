@@ -56,14 +56,13 @@ footer {
 
 .copyright-img-container {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
   color: $tertiaryColor;
   .copyright-container {
     display: flex;
     flex-direction: column;
     font-style: italic;
     margin-right: 10px;
-    margin-bottom: 37px;
     a {
       text-decoration: underline;
       transition: color .35s;
