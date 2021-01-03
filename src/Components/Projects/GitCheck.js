@@ -13,7 +13,7 @@ const GitCheck = () => {
         <div className="project-content project-content-1">
           <h2>Git Check</h2>
           <p>Search GitHub users to view their details including a list of public repositories, and most used languages showcased through Chart.js. Star your favorites to be viewed later with the help of Firebase, and navigate the application with flawless page transitions thanks to React Router.</p>
-          <h4>React / Hooks / Firebase / GitHub API</h4>
+          <h4>React / Firebase / Sass / GitHub API</h4>
           <div className="button-container">
             <a href="https://seandaniel.github.io/git-check/" target="_blank" rel="noopener noreferrer" className="button">View</a>
             <a href="https://github.com/seandaniel/git-check" target="_blank" rel="noopener noreferrer" className="button">Code</a>

@@ -13,7 +13,7 @@ const QuarantinePursuit = () => {
         <div className="project-content project-content-4">
           <h2>Quarantine Pursuit</h2>
           <p>Select from a dozen genres that contain over 2000 questions populated through the Open Trivia API. Liked that specific game? Through Firebase, save it to be replayed later!</p>
-          <h4>React / Firebase / Git Collaboration / Open Trivia API</h4>
+          <h4>React / Firebase / Sass / Open Trivia API</h4>
           <div className="button-container">
             <a href="https://npsj-quarantine-pursuit.github.io/quarantine-pursuit/" target="_blank" rel="noopener noreferrer" className="button">View</a>
             <a href="https://github.com/npsj-quarantine-pursuit/quarantine-pursuit" target="_blank" rel="noopener noreferrer" className="button">Code</a>

@@ -13,7 +13,7 @@ const RocketVision = () => {
         <div className="project-content project-content-8">
           <h2>Rocket Vision</h2>
           <p>A WordPress Photoshop design conversion.</p>
-          <h4>WordPress / PHP / Sass / Accessible</h4>
+          <h4>WordPress / PHP / Sass</h4>
           <div className="button-container">
             <a href="mailto:degroot.sd@gmail.com" className="button">Request</a>
             <a href="https://github.com/seandaniel/rocket-vision" target="_blank" rel="noopener noreferrer" className="button">Code</a>
