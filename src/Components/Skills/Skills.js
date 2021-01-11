@@ -3,10 +3,12 @@ import './skills.scss';
 
 // assets
 import JavaScriptImg from './assets/javascript-plain.svg';
+import TypeScriptImg from './assets/typescript-original.svg';
 import ReactImg from './assets/react-original.svg';
 import SassImg from './assets/sass-original.svg';
 import WordPressImg from './assets/wordpress-plain.svg';
 import ShopifyImg from './assets/shopify.png';
+import MySQLImg from './assets/mysql-original.svg';
 import HTMLImg from './assets/html5-plain.svg';
 import CSSImg from './assets/css3-plain.svg';
 import jQueryImg from './assets/jquery-plain.svg';
@@ -32,6 +34,12 @@ const Skills = () => {
           </li>
           <li className="skills-1-card">
             <div>
+              <img src={TypeScriptImg} alt="TypeScript" />
+            </div>
+            <p>TypeScript</p>
+          </li>
+          <li className="skills-1-card">
+            <div>
               <img src={ReactImg} alt="React" />
             </div>
             <p>React</p>
@@ -53,6 +61,12 @@ const Skills = () => {
               <img src={WordPressImg} alt="WordPress" />
             </div>
             <p>WordPress</p>
+          </li>
+          <li className="skills-1-card">
+            <div>
+              <img src={MySQLImg} alt="MySQL" />
+            </div>
+            <p>MySQL</p>
           </li>
         </ul>
         <ul className="secondary-skills-container">
