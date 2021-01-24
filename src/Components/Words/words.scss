@@ -42,7 +42,24 @@
 
 @media (max-width: 800px) {
   .words-container {
-    width: 350px;
+    width: 100%;
+    a {
+      width: 300px;
+      img {
+        width: 300px;
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .words-container {
+    a {
+      width: 350px;
+      img {
+        width: 350px;
+      }
+    }
     a:first-child {
       margin: 0 0 50px 0;
     }
@@ -52,13 +69,15 @@
   }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 440px) {
   .words-container {
     width: 100%;
     a {
       width: 100%;
+      max-width: 350px;
       img {
         width: 100%;
+        max-width: 350px;
       }
     }
   }
