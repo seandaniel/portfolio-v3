@@ -8,7 +8,7 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 const GitCheck = () => {
   return (
-    <section class="project-container">
+    <section>
       <div className="project-button-container">
         <div className="project-content project-content-1">
           <h2>Git Check</h2>
