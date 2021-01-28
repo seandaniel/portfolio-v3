@@ -8,7 +8,6 @@ import ReactImg from './assets/react-original.svg';
 import SassImg from './assets/sass-original.svg';
 import WordPressImg from './assets/wordpress-plain.svg';
 import ShopifyImg from './assets/shopify.png';
-import MySQLImg from './assets/mysql-original.svg';
 import HTMLImg from './assets/html5-plain.svg';
 import CSSImg from './assets/css3-plain.svg';
 import jQueryImg from './assets/jquery-plain.svg';
@@ -61,12 +60,6 @@ const Skills = () => {
               <img src={WordPressImg} alt="WordPress" />
             </div>
             <p>WordPress</p>
-          </li>
-          <li className="skills-1-card">
-            <div>
-              <img src={MySQLImg} alt="MySQL" />
-            </div>
-            <p>MySQL</p>
           </li>
         </ul>
         <ul className="secondary-skills-container">
