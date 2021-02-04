@@ -24,7 +24,7 @@ const FootForward = () => {
       </div>
       <div className="mock-img-container mock-img-container-5">
         <div className="individual-img-container">
-          <img src={footForwardDesktop} alt="A MacBook showcasing a grey nike shoe over an orange geometric background" />
+          <img src={footForwardDesktop} alt="An Apple desktop showcasing a grey nike shoe over an orange geometric background" />
         </div>
         <div className="individual-img-container">
           <img src={footForwardMobile} alt="An iPhone 5 showcasing a wall of shoes with text underneath" />

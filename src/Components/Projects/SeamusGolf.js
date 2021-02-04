@@ -24,7 +24,7 @@ const SeamusGolf = () => {
       </div>
       <div className="mock-img-container mock-img-container-6">
         <div className="individual-img-container">
-          <img src={seamusGolfDesktop} alt="A MacBook showcasing a black and white photograph of a golfer lining up his shot" />
+          <img src={seamusGolfDesktop} alt="An Apple desktop showcasing a black and white photograph of a golfer lining up his shot" />
         </div>
         <div className="individual-img-container">
           <img src={seamusGolfMobile} alt="An iPhone 5 showcasing 6 different colorful headcovers to choose from" />

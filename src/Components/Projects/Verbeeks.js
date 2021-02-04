@@ -24,10 +24,10 @@ const Verbeeks = () => {
       </div>
       <div className="mock-img-container mock-img-container-3">
         <div className="individual-img-container">
-          <img src={verbeeksDesktop} alt="A MacBook showcasing a carousel with products to choose from" />
+          <img src={verbeeksDesktop} alt="An Apple desktop showcasing products and brands" />
         </div>
         <div className="individual-img-container">
-          <img src={verbeeksMobile} alt="An iPhone showcasing a fertilizer product" />
+          <img src={verbeeksMobile} alt="An iPhone showcasing a carousel and navigation" />
         </div>
       </div>
     </section>

@@ -24,7 +24,7 @@ const FunPlace = () => {
       </div>
       <div className="mock-img-container mock-img-container-7">
         <div className="individual-img-container">
-          <img src={funPlaceDesktop} alt="A MacBook showcasing a blue slide with a boy doing an ollie" />
+          <img src={funPlaceDesktop} alt="An Apple desktop showcasing a blue slide with a boy doing an ollie" />
         </div>
         <div className="individual-img-container">
           <img src={funPlaceMobile} alt="An iPhone 5 showcasing 3 seperate icons with lorem ipsum text" />

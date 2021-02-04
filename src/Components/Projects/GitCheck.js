@@ -24,7 +24,7 @@ const GitCheck = () => {
       </div>
       <div className="mock-img-container mock-img-container-1">
         <div className="individual-img-container">
-          <img src={gitCheckDesktop} alt="A MacBook showcasing a pie chart with a GitHub user's stats" />
+          <img src={gitCheckDesktop} alt="An Apple desktop showcasing a pie chart with a GitHub user's stats" />
         </div>
         <div className="individual-img-container">
           <img src={gitCheckMobile} alt="An iPhone 5 showcasing GitHub users' information cards" />

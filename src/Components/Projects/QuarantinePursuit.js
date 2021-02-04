@@ -24,7 +24,7 @@ const QuarantinePursuit = () => {
       </div>
       <div className="mock-img-container mock-img-container-4">
         <div className="individual-img-container">
-          <img src={quarantinePursuitDesktop} alt="A MacBook showcasing a UI with two buttons and the title 'Quarantine Pursuit'" />
+          <img src={quarantinePursuitDesktop} alt="An Apple desktop showcasing a UI with two buttons and the title 'Quarantine Pursuit'" />
         </div>
         <div className="individual-img-container">
           <img src={quarantinePursuitMobile} alt="An iPhone 5 showcasing different genres of quizes to choose from" />

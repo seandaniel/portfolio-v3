@@ -24,7 +24,7 @@ const TheSpecificPress = () => {
       </div>
       <div className="mock-img-container mock-img-container-2">
         <div className="individual-img-container">
-          <img src={theSpecificPressDesktop} alt="A MacBook showcasing articles relating to the topic 'Technology'" />
+          <img src={theSpecificPressDesktop} alt="An Apple desktop showcasing articles relating to the topic 'Technology'" />
         </div>
         <div className="individual-img-container">
           <img src={theSpecificPressMobile} alt="An iPhone 5 showcasing The Specific Press logo and an input box" />

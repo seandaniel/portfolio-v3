@@ -24,7 +24,7 @@ const RocketVision = () => {
       </div>
       <div className="mock-img-container mock-img-container-8">
         <div className="individual-img-container">
-          <img src={rocketVisionDesktop} alt="A MacBook showcasing a landing page explaining the company with pink rockets" />
+          <img src={rocketVisionDesktop} alt="An Apple desktop showcasing a landing page explaining the company with pink rockets" />
         </div>
         <div className="individual-img-container">
           <img src={rocketVisionMobile} alt="An iPhone 5 showcasing the agency's team members" />
