@@ -294,7 +294,7 @@
   .project-content-6::before,
   .project-content-7::before,
   .project-content-8::before {
-    width: 100%;
+    width: calc(100% + 25px);
   }
 }
 
