@@ -10,8 +10,8 @@ const GitCheck = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-6">
-          <h2>Git Check</h2>
+        <div className="project-content">
+          <h2 className="project-content-6">Git Check</h2>
           <p>Search GitHub users to view their details including a list of public repositories, and most used languages showcased through Chart.js. Star your favourites to be viewed later with the help of Firebase, and navigate the application with seamless page transitions thanks to React Router.</p>
           <h4>React / Firebase / Sass / GitHub API</h4>
           <div className="button-container">

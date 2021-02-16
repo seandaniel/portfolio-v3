@@ -10,8 +10,8 @@ const RocketVision = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-8">
-          <h2>Rocket Vision</h2>
+        <div className="project-content">
+          <h2 className="project-content-7">Rocket Vision</h2>
           <p>A WordPress Photoshop design conversion.</p>
           <h4>WordPress / PHP / Sass</h4>
           <div className="button-container">

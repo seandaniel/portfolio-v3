@@ -10,8 +10,8 @@ const TheSpecificPress = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-2">
-          <h2>The Specific Press</h2>
+        <div className="project-content">
+          <h2 className="project-content-2">The Specific Press</h2>
           <p>In today's world, it's important to stay in the know. Fetching thousands of up-to-date articles courtesy of The News API, this React app features a smooth browser and device consistency, all under a clean user interface.</p>
           <h4>React / Sass / The News API</h4>
           <div className="button-container">

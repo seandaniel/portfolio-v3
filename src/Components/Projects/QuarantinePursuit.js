@@ -10,8 +10,8 @@ const QuarantinePursuit = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-4">
-          <h2>Quarantine Pursuit</h2>
+        <div className="project-content">
+          <h2 className="project-content-4">Quarantine Pursuit</h2>
           <p>Select from a dozen genres that contain over 2000 questions populated through the Open Trivia API. Liked that specific game? Through Firebase, save it to be replayed later!</p>
           <h4>React / Firebase / Sass / Open Trivia API</h4>
           <div className="button-container">

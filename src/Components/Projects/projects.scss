@@ -136,7 +136,7 @@
 
 .project-content {
   width: 600px;
-  margin: 25px 0 100px 30px;
+  margin: 25px 0 100px 25px;
   h2 {
     margin-bottom: 20px;
   }
@@ -227,21 +227,23 @@
 .project-content-7,
 .project-content-8 {
   position: relative;
+  display: inline-block;
 }
 
-.project-content-6::before {
+.project-content-1::before {
   @include underlay;
-  background-color: rgba(36, 41, 46, .05);
+  background-color: rgba(191, 211, 117, .1);
 }
+
 
 .project-content-2::before {
   @include underlay;
   background-color: rgba(204, 201, 220, .15);
 }
 
-.project-content-1::before {
+.project-content-3::before {
   @include underlay;
-  background-color: rgba(191, 211, 117, .1);
+  background-color: rgba(251, 221, 221, .15);
 }
 
 .project-content-4::before {
@@ -254,19 +256,19 @@
   background-color: rgba(246, 203, 187, .15);
 }
 
-.project-content-3::before {
+.project-content-6::before {
   @include underlay;
-  background-color: rgba(251, 221, 221, .15);
+  background-color: rgba(36, 41, 46, .05);
 }
 
 .project-content-7::before {
   @include underlay;
-  background-color: rgba(153, 194, 201, .1);
+  background-color: rgba(6, 34, 136, .05);
 }
 
 .project-content-8::before {
   @include underlay;
-  background-color: rgba(6, 34, 136, .05);
+  background-color: rgba(153, 194, 201, .1);
 }
 
 .mock-img-container-1 img {

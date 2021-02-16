@@ -10,8 +10,8 @@ const FunPlace = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-7">
-          <h2>Fun Place</h2>
+        <div className="project-content">
+          <h2 className="project-content-8">Fun Place</h2>
           <p>A Photoshop design conversion.</p>
           <h4>HTML / Sass</h4>
           <div className="button-container">
