@@ -10,7 +10,7 @@ const Verbeeks = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-3">
+        <div className="project-content project-content-1">
           <h2>Verbeek's Farm and Garden Centre</h2>
           <p>Verbeek's services everyone from the home gardener to the largest farm properties across their residing county. Built and designed with Liquid and Sass utilizing the Shopify platform, showcasing the company's brand and unique products.</p>
           <h4>Liquid / Vanilla JavaScript / Sass</h4>

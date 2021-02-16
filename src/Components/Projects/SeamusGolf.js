@@ -10,7 +10,7 @@ const SeamusGolf = () => {
   return (
     <section>
       <div className="project-button-container">
-        <div className="project-content project-content-6">
+        <div className="project-content project-content-3">
           <h2>Seamus Golf</h2>
           <p>A Photoshop design conversion.</p>
           <h4>HTML / Sass</h4>

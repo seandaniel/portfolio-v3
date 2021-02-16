@@ -94,7 +94,7 @@
 }
 
 // project colors
-.project1 {
+.project6 {
   background-color: rgba(36, 41, 46, .3);
 }
 
@@ -102,7 +102,7 @@
   background-color: rgba(204, 201, 220, .8);
 }
 
-.project3 {
+.project1 {
   background-color: rgba(191, 211, 117, .6);
 }
 
@@ -114,7 +114,7 @@
   background-color: rgba(232, 91, 38, .3);
 }
 
-.project6 {
+.project3 {
   background-color: rgba(251, 221, 221, 1);
 }
 
@@ -229,7 +229,7 @@
   position: relative;
 }
 
-.project-content-1::before {
+.project-content-6::before {
   @include underlay;
   background-color: rgba(36, 41, 46, .05);
 }
@@ -239,7 +239,7 @@
   background-color: rgba(204, 201, 220, .15);
 }
 
-.project-content-3::before {
+.project-content-1::before {
   @include underlay;
   background-color: rgba(191, 211, 117, .1);
 }
@@ -254,7 +254,7 @@
   background-color: rgba(246, 203, 187, .15);
 }
 
-.project-content-6::before {
+.project-content-3::before {
   @include underlay;
   background-color: rgba(251, 221, 221, .15);
 }
