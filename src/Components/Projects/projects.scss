@@ -230,6 +230,20 @@
   display: inline-block;
 }
 
+@media (max-width: 500px) {
+  .project-content-1,
+  .project-content-2,
+  .project-content-3,
+  .project-content-4,
+  .project-content-5,
+  .project-content-6,
+  .project-content-7,
+  .project-content-8 {
+    position: relative;
+    display: block;
+  }
+}
+
 .project-content-1::before {
   @include underlay;
   background-color: rgba(191, 211, 117, .1);
@@ -269,6 +283,19 @@
 .project-content-8::before {
   @include underlay;
   background-color: rgba(153, 194, 201, .1);
+}
+
+@media (max-width: 500px) {
+  .project-content-1::before,
+  .project-content-2::before,
+  .project-content-3::before,
+  .project-content-4::before,
+  .project-content-5::before,
+  .project-content-6::before,
+  .project-content-7::before,
+  .project-content-8::before {
+    width: 100%;
+  }
 }
 
 .mock-img-container-1 img {
