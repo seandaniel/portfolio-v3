@@ -41,6 +41,10 @@
   .main-skills-container {
     text-align: center;
     margin-bottom: 50px;
+    li:nth-child(5),
+    li:nth-child(6) {
+      margin-bottom: 0;
+    }
   }
 }
 
