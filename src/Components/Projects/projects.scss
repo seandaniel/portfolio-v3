@@ -153,6 +153,12 @@
   }
 }
 
+@media (max-width: 440px) {
+  .project-content p {
+    margin: 40px 0 20px 0;
+  }
+}
+
 .button-container {
   display: flex;
   align-items: center;
@@ -239,6 +245,19 @@
 .project-content-8 {
   position: relative;
   display: inline-block;
+}
+
+@media (max-width: 440px) {
+  .project-content-1,
+  .project-content-2,
+  .project-content-3,
+  .project-content-4,
+  .project-content-5,
+  .project-content-6,
+  .project-content-7,
+  .project-content-8 {
+    display: block;
+  }
 }
 
 .project-content-1::before {
