@@ -14,7 +14,7 @@ const SeamusGolf = () => {
           <h2 className="project-content-3">Seamus Golf</h2>
           <p>A Photoshop design conversion.</p>
           <h4>HTML / Sass</h4>
-          <div className="button-container">
+          <div className="three-button-container">
             <a href="https://seandaniel.github.io/seamus-golf/" target="_blank" rel="noopener noreferrer" className="button">View</a>
             <a href="https://github.com/seandaniel/seamus-golf" target="_blank" rel="noopener noreferrer" className="button">Code</a>
             <Link to="/" className="button button-back button-mobile" aria-label="Back"><FaArrowLeft /></Link>

@@ -14,7 +14,7 @@ const FunPlace = () => {
           <h2 className="project-content-8">Fun Place</h2>
           <p>A Photoshop design conversion.</p>
           <h4>HTML / Sass</h4>
-          <div className="button-container">
+          <div className="three-button-container">
             <a href="https://seandaniel.github.io/fun-place/" target="_blank" rel="noopener noreferrer" className="button">View</a>
             <a href="https://github.com/seandaniel/fun-place" target="_blank" rel="noopener noreferrer" className="button">Code</a>
             <Link to="/" className="button button-back button-mobile" aria-label="Back"><FaArrowLeft /></Link>
