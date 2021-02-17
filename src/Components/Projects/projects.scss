@@ -241,20 +241,6 @@
   display: inline-block;
 }
 
-@media (max-width: 440px) {
-  .project-content-1,
-  .project-content-2,
-  .project-content-3,
-  .project-content-4,
-  .project-content-5,
-  .project-content-6,
-  .project-content-7,
-  .project-content-8 {
-    position: relative;
-    display: block;
-  }
-}
-
 .project-content-1::before {
   @include underlay;
   background-color: rgba(191, 211, 117, .1);
@@ -305,7 +291,8 @@
   .project-content-6::before,
   .project-content-7::before,
   .project-content-8::before {
-    width: calc(100% + 25px);
+    width: calc(100% + 40px);
+
   }
 }
 
