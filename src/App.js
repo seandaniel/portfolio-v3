@@ -30,8 +30,8 @@ const App = () => {
           <Suspense fallback={<LoadingAnimation />}>
             <main>
               <Switch>
-                <Route exact path="/about" component={About} />
-                <Route exact path="/skills" component={Skills} />
+                <Route exact path="/about" className="about" component={About} />
+                <Route exact path="/skills" className="skills" component={Skills} />
                 <Route exact path="/" component={Projects} />
                 <Route exact path="/git-check" component={GitCheck} aria-label="View Git Check"/>
                 <Route exact path="/the-specific-press" component={TheSpecificPress} aria-label="View The Specific Press"/>
