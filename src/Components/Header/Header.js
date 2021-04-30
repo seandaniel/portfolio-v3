@@ -12,6 +12,7 @@ import { FaMapMarkerAlt } from 'react-icons/fa'
 const Header = () => {
 
   // select active and add opacity to next element sibling
+  // CI=false npm run build
   const onLoad = () => {
     const active = document.querySelector('.active');
     active.nextElementSibling.style.opacity = 1;
