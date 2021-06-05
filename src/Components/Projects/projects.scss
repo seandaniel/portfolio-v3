@@ -1,4 +1,4 @@
-@import '../../variables.scss';
+@import "../../variables.scss";
 
 .projects-container {
   display: flex;
@@ -10,19 +10,20 @@
     justify-content: center;
     align-items: center;
     width: 350px;
-    padding: 100px 50px;
+    padding: 0px;
+    height: 350px;
     border-radius: 5px;
     text-align: center;
     margin: 0 25px 25px 0;
     opacity: 1;
     top: 0;
-    transition: opacity .35s, top .35s;
+    transition: opacity 0.35s, top 0.35s;
     &:hover,
     &:focus {
-      opacity: .7;
+      opacity: 0.7;
       top: -20px;
     }
-    img {
+    .project-icon {
       height: 90px;
       width: 90px;
       margin-bottom: 20px;
@@ -30,7 +31,7 @@
   }
 }
 
-.projects-container .project3, 
+.projects-container .project3,
 .projects-container .project6,
 .projects-container .project7 {
   margin-right: 0;
@@ -93,25 +94,42 @@
   font-size: 20px;
 }
 
+.icon-container {
+  display: flex;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  li img {
+    width: 60px;
+    background-color: $tertiaryColor;
+    border-radius: 5px;
+    padding: 10px;
+  }
+}
+
+.project .icon-container li:nth-child(2) img {
+  margin-left: 10px;
+}
+
 // project colors
 .project6 {
-  background-color: rgba(36, 41, 46, .3);
+  background-color: rgba(36, 41, 46, 0.3);
 }
 
 .project2 {
-  background-color: rgba(204, 201, 220, .8);
+  background-color: rgba(204, 201, 220, 0.8);
 }
 
 .project1 {
-  background-color: rgba(191, 211, 117, .6);
+  background-color: rgba(191, 211, 117, 0.6);
 }
 
 .project4 {
-  background-color: rgba(175, 237, 255, .8);
+  background-color: rgba(175, 237, 255, 0.8);
 }
 
 .project5 {
-  background-color: rgba(232, 91, 38, .3);
+  background-color: rgba(232, 91, 38, 0.3);
 }
 
 .project3 {
@@ -119,11 +137,11 @@
 }
 
 .project7 {
-  background-color: rgba(3, 105, 124, .4);
+  background-color: rgba(3, 105, 124, 0.4);
 }
 
 .project8 {
-  background-color: rgba(6, 34, 136, .3);
+  background-color: rgba(6, 34, 136, 0.3);
 }
 
 .project-button-container {
@@ -185,7 +203,7 @@
     align-items: center;
     margin-left: 10px;
   }
-  
+
   .button-desktop {
     display: none;
   }
@@ -205,7 +223,7 @@
   }
 }
 
-.mock-img-container .individual-img-container:last-child  {
+.mock-img-container .individual-img-container:last-child {
   width: 35%;
   // display: inherit;
   img {
@@ -243,75 +261,98 @@
 
 .project-content-1::before {
   @include underlay;
-  background-color: rgba(191, 211, 117, .1);
+  background-color: rgba(191, 211, 117, 0.1);
 }
-
 
 .project-content-2::before {
   @include underlay;
-  background-color: rgba(204, 201, 220, .15);
+  background-color: rgba(204, 201, 220, 0.15);
 }
 
 .project-content-3::before {
   @include underlay;
-  background-color: rgba(251, 221, 221, .15);
+  background-color: rgba(251, 221, 221, 0.15);
 }
 
 .project-content-4::before {
   @include underlay;
-  background-color: rgba(190, 239, 254, .15)
+  background-color: rgba(190, 239, 254, 0.15);
 }
 
 .project-content-5::before {
   @include underlay;
-  background-color: rgba(246, 203, 187, .15);
+  background-color: rgba(246, 203, 187, 0.15);
 }
 
 .project-content-6::before {
   @include underlay;
-  background-color: rgba(36, 41, 46, .05);
+  background-color: rgba(36, 41, 46, 0.05);
 }
 
 .project-content-7::before {
   @include underlay;
-  background-color: rgba(6, 34, 136, .05);
+  background-color: rgba(6, 34, 136, 0.05);
 }
 
 .project-content-8::before {
   @include underlay;
-  background-color: rgba(153, 194, 201, .1);
+  background-color: rgba(153, 194, 201, 0.1);
 }
 
 .mock-img-container-1 img {
-  background: linear-gradient(rgba(36, 41, 46, .05) 30%, rgba(36, 41, 46, .5));
+  background: linear-gradient(
+    rgba(36, 41, 46, 0.05) 30%,
+    rgba(36, 41, 46, 0.5)
+  );
 }
 
 .mock-img-container-2 img {
-  background: linear-gradient(rgba(204, 201, 220, .15) 30%, rgba(204, 201, 220, 1));
+  background: linear-gradient(
+    rgba(204, 201, 220, 0.15) 30%,
+    rgba(204, 201, 220, 1)
+  );
 }
 
 .mock-img-container-3 img {
-  background: linear-gradient(rgba(191, 211, 117, .1) 30%, rgba(191, 211, 117, .5));
+  background: linear-gradient(
+    rgba(191, 211, 117, 0.1) 30%,
+    rgba(191, 211, 117, 0.5)
+  );
 }
 
 .mock-img-container-4 img {
-  background: linear-gradient(rgba(190, 239, 254, .15) 30%, rgba(190, 239, 254, 1));
+  background: linear-gradient(
+    rgba(190, 239, 254, 0.15) 30%,
+    rgba(190, 239, 254, 1)
+  );
 }
 
 .mock-img-container-5 img {
-  background: linear-gradient(rgba(246, 203, 187, .15) 30%, rgba(246, 203, 187, 1));
+  background: linear-gradient(
+    rgba(246, 203, 187, 0.15) 30%,
+    rgba(246, 203, 187, 1)
+  );
 }
 
 .mock-img-container-6 img {
-  background: linear-gradient(rgba(251, 221, 221, .15) 30%, rgba(251, 221, 221, 1));
+  background: linear-gradient(
+    rgba(251, 221, 221, 0.15) 30%,
+    rgba(251, 221, 221, 1)
+  );
 }
 
 .mock-img-container-7 img {
-  background: linear-gradient(rgba(153, 194, 201, .1) 30%, rgba(153, 194, 201, 1));
+  background: linear-gradient(
+    rgba(153, 194, 201, 0.1) 30%,
+    rgba(153, 194, 201, 1)
+  );
 }
 
 .mock-img-container-8 img {
-  background: linear-gradient(rgba(6, 34, 136, 0.05) 30%, rgba(6, 34, 136, .5));
+  background: linear-gradient(
+    rgba(6, 34, 136, 0.05) 30%,
+    rgba(6, 34, 136, 0.5)
+  );
 }
 
 @media (max-width: 440px) {

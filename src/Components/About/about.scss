@@ -1,4 +1,4 @@
-@import '../../variables';
+@import "../../variables";
 
 .p-img-container {
   display: flex;
@@ -16,7 +16,7 @@
 .p-img-container p:last-child a {
   color: $secondaryColor;
   text-decoration: underline;
-  transition: color .35s;
+  transition: color 0.35s;
   &:hover,
   &:focus {
     color: $primaryColor;
@@ -48,7 +48,7 @@
   display: flex;
   width: 40px;
   justify-content: space-between;
-    li {
+  li {
     border: 1px solid $quaternaryColor;
     height: 10px;
     width: 10px;

@@ -1,24 +1,29 @@
-import React from 'react';
-import './skills.scss';
+import React from "react";
+import "./skills.scss";
 
 // assets
-import JavaScriptImg from './assets/javascript-plain.svg';
-import TypeScriptImg from './assets/typescript-original.svg';
-import ReactImg from './assets/react-original.svg';
-import SassImg from './assets/sass-original.svg';
-import WordPressImg from './assets/wordpress-plain.svg';
-import ShopifyImg from './assets/shopify.png';
-import HTMLImg from './assets/html5-plain.svg';
-import CSSImg from './assets/css3-plain.svg';
-import jQueryImg from './assets/jquery-plain.svg';
-import FirebaseImg from './assets/firebase.png';
-import GitImg from './assets/git-plain.svg';
-import GitHubImg from './assets/github-original.svg';
-import GulpImg from './assets/gulp-plain.svg';
-import PHPImg from './assets/php-plain.svg';
-import { FaDatabase, FaUniversalAccess, FaMobile, FaSearchPlus } from 'react-icons/fa'
-import golfShot from './assets/golfShot.mp4';
-import golfShotPreview from './assets/golfShotPreview.png';
+import JavaScriptImg from "./assets/javascript-plain.svg";
+import TypeScriptImg from "./assets/typescript-original.svg";
+import ReactImg from "./assets/react-original.svg";
+import SassImg from "./assets/sass-original.svg";
+import WordPressImg from "./assets/wordpress-plain.svg";
+import ShopifyImg from "./assets/shopify.png";
+import HTMLImg from "./assets/html5-plain.svg";
+import CSSImg from "./assets/css3-plain.svg";
+import jQueryImg from "./assets/jquery-plain.svg";
+import FirebaseImg from "./assets/firebase.png";
+import GitImg from "./assets/git-plain.svg";
+import GitHubImg from "./assets/github-original.svg";
+import GulpImg from "./assets/gulp-plain.svg";
+import PHPImg from "./assets/php-plain.svg";
+import {
+  FaDatabase,
+  FaUniversalAccess,
+  FaMobile,
+  FaSearchPlus,
+} from "react-icons/fa";
+import golfShot from "./assets/golfShot.mp4";
+import golfShotPreview from "./assets/golfShotPreview.png";
 
 const Skills = () => {
   return (
@@ -142,14 +147,21 @@ const Skills = () => {
         </ul>
       </div>
       <div className="video-container">
-        <video poster={golfShotPreview} src={golfShot}
-          alt="A golfer swinging a wedge at a driving range" autoPlay controls loop muted></video>
+        <video
+          poster={golfShotPreview}
+          src={golfShot}
+          alt="A golfer swinging a wedge at a driving range"
+          autoPlay
+          controls
+          loop
+          muted
+        ></video>
         <div className="video-content">
           <p>Golf skills</p>
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
 export default Skills;
